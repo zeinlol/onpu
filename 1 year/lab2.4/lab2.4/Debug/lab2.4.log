@@ -1,0 +1,14 @@
+﻿  lab2.4.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508\include\algorithm(1321): warning C4244: 'argument': conversion from 'double' to '_Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+  D:\source\repos\lab2.4\lab2.4\lab2.4.cpp(58): note: see reference to function template instantiation '_OutIt std::transform<std::istreambuf_iterator<char,std::char_traits<char>>,std::ostreambuf_iterator<char,std::char_traits<char>>,decode::<lambda_110fb1960d9e06385d4695a1cd02dccd>>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+              _InIt=std::istreambuf_iterator<char,std::char_traits<char>>,
+              _Fn=decode::<lambda_110fb1960d9e06385d4695a1cd02dccd>
+          ]
+  lab2.4.vcxproj -> D:\source\repos\lab2.4\lab2.4\Debug\lab2.4.exe

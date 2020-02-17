@@ -1,0 +1,2 @@
+﻿  Andrew.cpp
+d:\visual_studio\andrew\andrew\andrew.cpp(16): error C4700: использована неинициализированная локальная переменная "b"

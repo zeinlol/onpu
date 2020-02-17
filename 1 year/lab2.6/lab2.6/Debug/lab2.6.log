@@ -1,0 +1,9 @@
+﻿  lab2.6.cpp
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(150,78): error C2661:  'arcs::arcs': no overloaded function takes 6 arguments
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(155,14): error C2039:  'show': is not a member of 'abs_figures'
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(6): message :  see declaration of 'abs_figures'
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(157,14): error C2039:  'show': is not a member of 'abs_figures'
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(6): message :  see declaration of 'abs_figures'
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(160,86): error C2661:  'changed_arcs::changed_arcs': no overloaded function takes 6 arguments
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(165,14): error C2039:  'show': is not a member of 'abs_figures'
+D:\source\repos\lab2.6\lab2.6\lab2.6.cpp(6): message :  see declaration of 'abs_figures'
