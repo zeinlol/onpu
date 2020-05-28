@@ -1,0 +1,11 @@
+D:\source\repos\lab_3_2\bin\Debug\netcoreapp3.0\lab_3_2.exe
+D:\source\repos\lab_3_2\bin\Debug\netcoreapp3.0\lab_3_2.deps.json
+D:\source\repos\lab_3_2\bin\Debug\netcoreapp3.0\lab_3_2.runtimeconfig.json
+D:\source\repos\lab_3_2\bin\Debug\netcoreapp3.0\lab_3_2.runtimeconfig.dev.json
+D:\source\repos\lab_3_2\bin\Debug\netcoreapp3.0\lab_3_2.dll
+D:\source\repos\lab_3_2\bin\Debug\netcoreapp3.0\lab_3_2.pdb
+D:\source\repos\lab_3_2\obj\Debug\netcoreapp3.0\lab_3_2.csprojAssemblyReference.cache
+D:\source\repos\lab_3_2\obj\Debug\netcoreapp3.0\lab_3_2.AssemblyInfoInputs.cache
+D:\source\repos\lab_3_2\obj\Debug\netcoreapp3.0\lab_3_2.AssemblyInfo.cs
+D:\source\repos\lab_3_2\obj\Debug\netcoreapp3.0\lab_3_2.dll
+D:\source\repos\lab_3_2\obj\Debug\netcoreapp3.0\lab_3_2.pdb

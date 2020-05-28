@@ -1,0 +1,53 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <p style="font-size: 30px">Выберите картинку</p>
+    <select>
+        <option id='bird'>Птичка</option>
+        <option id='fish'>Рыбка</option>
+        <option id='crocodile'>Крокодил</option>
+    </select><br><br>
+    <button id="createWin" onclick="createWin();">
+        <p>Сформировать страницу</p>
+    </button>
+    <img id="birdPhoto" src="http://farm4.static.flickr.com/3629/3474220236_f5ec1965a5_o.jpg" hidden>
+    <script>
+        function createWin() {
+            var birdPhoto = new Image();
+            birdPhoto.src = '/bird.jpg';
+            var fishPhoto = new Image();
+            fishPhoto.src = '/fish.jpg';
+            var crocodilePhoto = new Image();
+            crocodilePhoto.src = '/crocodile.jpg';
+            var info = "Вы ничего не выбрали, нечего показать((";
+            var bird = document.getElementById("bird");
+            var fish = document.getElementById("fish");
+            var crocodile = document.getElementById("crocodile");
+            var birdText = "<br><p>Это птичка, она умеет летать</p>";
+            var fishText = "<br><p>Это рыбка, она умеет плавать</p>";
+            var crocodileText = "<br><p>Это крокодил, он может тебя скушать</p>";
+
+            if (bird.selected) {
+                info = birdText + birdPhoto.value;
+            }
+            if (crocodile.selected) {
+                info = crocodileText + "http://farm4.static.flickr.com/3629/3474220236_f5ec1965a5_o.jpg";
+            }
+
+            if (fish.selected) {
+                info = fishText + "http://farm4.static.flickr.com/3629/3474220236_f5ec1965a5_o.jpg";
+            }
+
+            var newWin = window.open("about:blank", "photos", "width=1000,height=500");
+
+            newWin.document.write(info);
+
+        }
+
+    </script>
+</body>
+
+</html>

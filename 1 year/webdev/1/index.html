@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Note</title>
+  </head>
+<body>
+<button id="enter" onclick="checkName();"><p>Задание 1</p></button>
+<button id="clock" onclick="clock();"><p>Задание 2</p></button>
+<button id="pictures" onclick="pictures();"><p>Задание 3</p></button>
+    <div id="1" style="visibility: hidden">
+        <img src="1.png">
+    </div>
+    <div id="2" style="visibility: hidden">
+        <img src="2.png">
+    </div>
+<script>
+    
+    function checkName() {
+        var name = prompt('Ваше имя', 100);
+        var surname = prompt('Ваша фамилия', 100);
+        var YourName = confirm("Вы " + name + " " + surname + "?");
+    }
+    
+    function clock() {
+        var hours = prompt('Часы:', 100);
+        var minutes = prompt('Минуты', 100);
+        
+        minutes ++;
+        
+        if (minutes >= 60) {
+            minutes = 0;
+            hours++;
+        }
+        if (hours >= 24) {
+            hours =0;
+        }
+        alert("Время через 1 минуту: " + hours + " часов " + minutes + " минут");
+    }
+    
+    function pictures() {
+        document.getElementById("1").style.visibility = "visible";
+        document.getElementById("2").style.visibility = "visible";
+    }
+    
+</script>
+</body>

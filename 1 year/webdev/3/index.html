@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Note</title>
+</head>
+
+<body>
+<div>
+    <p>Дата рождения</p><br>
+    <input id="date" type="date" placeholder="Дата рождения">
+    <br><br>
+    <button id="calculate" onclick="calculate();">
+        <p>Посчитать кол-во дней</p>
+    </button>
+</div><br><br>
+<div>
+<input id="x1" type="text" placeholder="Введите Х"><br><br>
+<input id="y1" type="text" placeholder="Введите У"><br><br>
+<button id="length" onclick="length();">
+        <p>Посчитать растояние до начала координат</p>
+    </button>
+</div>
+    <script>
+
+        var now = new Date();
+        alert(now);
+        
+        function calculate() {
+
+var today = new Date().getTime();
+var birthday = new Date(document.getElementById("date").value).getTime();
+var age = now - birthday;
+var result = Math.floor((age/2592000000)*30.4);
+alert("Я прожил всего " + result + " дней");
+
+	}
+
+	function length() {
+
+	var x = parseInt(document.getElementById("x1").value);
+	var y = parseInt(document.getElementById("y1").value);
+	alert ('Растояние: ' + Math.sqrt(x*x + y*y));
+	}   
+
+    </script>
+</body>

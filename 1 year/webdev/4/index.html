@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Note</title>
+</head>
+
+<body>
+    <p>Ваше имя</p><br>
+    <input id="name" type="text" placeholder="Имя">
+    <p>Ваша фамилия</p><br>
+    <input id="surname" type="text" placeholder="Фимилия">
+    <p>Дата рождения</p><br>
+    <input id="date" type="date" placeholder="Дата рождения">
+    <p>Родной город</p><br>
+    <input id="homecity" type="text" placeholder="Родной город">
+    <p>Увлечения</p><br>
+    <input id=interests type="text" placeholder="Увлечения">
+    <p>Группа</p><br>
+    <input id="group" type="text" placeholder="Группа"><br><br>
+    <button id="biography" onclick="biography();">
+        <p>Сформировать биографию</p>
+    </button>
+
+    <script>
+        function biography() {
+
+            var nam = document.getElementById("name").value;
+            var surnam = document.getElementById("surname").value;
+            var dat = new Date(document.getElementById("date").value);
+            var time = dat.getUTCFullYear() + "/" + (dat.getUTCMonth()+1) + "/" + dat.getUTCDate();
+            var homecit = document.getElementById("homecity").value;
+            var interest = document.getElementById("interests").value;
+            var grou = document.getElementById("group").value;
+            
+                
+            console.log(nam);
+            console.log(surnam);
+            console.log(time);
+            console.log(homecit);
+            console.log(interest);
+            console.log(grou);
+            
+            
+            var newWin = window.open("about:blank", "biography", "width=500,height=500,left=400");
+
+            var bio = "Меня зовут " + nam + " " + surnam + ". Дата моего рождения - " + time + ". Родился в городе " + homecit + ". учусь в ОНПУ, ИКС, группа " + grou + ". К моим увлечениям относятся: " + interest;
+
+            newWin.document.write(bio);
+            
+        }
+
+    </script>
+
+
+
+</body>

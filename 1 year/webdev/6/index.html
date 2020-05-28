@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Note</title>
+</head>
+
+<body>
+    <div>
+        <img id="1" src="https://maslogid.com/wp-content/uploads/2017/10/2108.jpg" style="visibility: visible">
+        <img id="2" src="http://s020.radikal.ru/i702/1506/80/d41d30aa07df.jpg" style="visibility:hidden">
+        <img id="3" src="https://images.ru.prom.st/262597951_w640_h640_bortovoj-ural-4320-6072.jpg" style="visibility: hidden">
+    </div>
+    <div>
+    <button id="next" onclick="next();">
+        <p>следующее фото</p>
+    </button>
+    </div>
+    <script>
+        function next() {
+            var first = document.getElementById("1");
+            var second = document.getElementById("2");
+            var third = document.getElementById("3");
+
+            var counter;
+            if (counter == 0) {
+                first.style.visibility  = "visible";
+                second.style.visibility = "hidden";
+                third.style.visibility  = "hidden";
+            } else if (counter == 1) {
+                first.style.visibility  = "hidden";
+                second.style.visibility = "visible";
+                third.style.visibility  = "hidden";
+            } else if (counter == 2) {
+                first.style.visibility  = "hidden";
+                second.style.visibility = "hidden";
+                third.style.visibility  = "visible";
+            } else {
+                counter = 0;
+            }
+            counter++;
+
+        }
+
+    </script>
+</body>
