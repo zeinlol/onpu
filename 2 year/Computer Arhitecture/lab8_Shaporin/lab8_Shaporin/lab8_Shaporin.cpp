@@ -4,9 +4,7 @@ using namespace std;
 short result = 0;
 short func(short arr, short d)
 {
-
     _asm {
-
         mov cx, arr         //      загружаю элемент массива в cx
         cmp cx, d           //      сравниваю сх с d
         JE miss         //      если сх не равна d
@@ -23,7 +21,7 @@ int Printmas(short mass[4][3], short X) {
         }
         cout << endl;
     }
-    if (result = 0) {
+    if (result > 0) {
         mass[4][1] = X;
         cout << mass[4][1] << endl;
     }

@@ -8,14 +8,9 @@ short a = 0;
 short b = 0;
 short p = 0;
 int enter = 0;
-
-int main()
-
-{
-
+int main() {
     cout << "Enter 1 for using 3 lab, 2 for 4 lab, any other key - exit. Your choose: ";
     cin >> enter;
-
     if (enter == 1) {
         cout << "Enter a: ";
         cin >> a;
