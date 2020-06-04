@@ -1,8 +1,0 @@
-﻿  Lab6_1_Shapka.cpp
-D:\Documents\GitHub\onpu\2 year\Computer Arhitecture\Lab6_1_Shapka\Lab6_1_Shapka\Lab6_1_Shapka.cpp(43,9): error C2065: 'cout': undeclared identifier
-D:\Documents\GitHub\onpu\2 year\Computer Arhitecture\Lab6_1_Shapka\Lab6_1_Shapka\Lab6_1_Shapka.cpp(44,9): error C2065: 'cin': undeclared identifier
-D:\Documents\GitHub\onpu\2 year\Computer Arhitecture\Lab6_1_Shapka\Lab6_1_Shapka\Lab6_1_Shapka.cpp(47,5): error C2065: 'cout': undeclared identifier
-D:\Documents\GitHub\onpu\2 year\Computer Arhitecture\Lab6_1_Shapka\Lab6_1_Shapka\Lab6_1_Shapka.cpp(48,5): error C2065: 'cin': undeclared identifier
-D:\Documents\GitHub\onpu\2 year\Computer Arhitecture\Lab6_1_Shapka\Lab6_1_Shapka\Lab6_1_Shapka.cpp(49,5): error C2065: 'cout': undeclared identifier
-D:\Documents\GitHub\onpu\2 year\Computer Arhitecture\Lab6_1_Shapka\Lab6_1_Shapka\Lab6_1_Shapka.cpp(50,5): error C2065: 'cin': undeclared identifier
-D:\Documents\GitHub\onpu\2 year\Computer Arhitecture\Lab6_1_Shapka\Lab6_1_Shapka\Lab6_1_Shapka.cpp(54,5): error C2065: 'cout': undeclared identifier
