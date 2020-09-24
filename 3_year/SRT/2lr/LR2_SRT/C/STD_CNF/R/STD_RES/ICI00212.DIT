@@ -1,0 +1,40 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 212
+QSL: 5
+QVE: 5
+QVPC: 5
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+Y	1	VAR_EXTERNAL	@TYP:1
+@RV 1		     
+
+;
+
+@V 1 7 0
+x1	2	VAR_EXTERNAL	@TYP:1
+@RV 2		     
+
+;
+
+@V 1 8 0
+x2	3	VAR_EXTERNAL	@TYP:1
+@RV 4		     
+
+;
+
+@V 1 9 0
+x3	4	VAR_EXTERNAL	@TYP:1
+@RV 5		     
+
+;
+
+@V 1 10 0
+x4	5	VAR_EXTERNAL	@TYP:1
+@RV 3		     
+
+;
+
