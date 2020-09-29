@@ -1,0 +1,7 @@
+(*
+NPOU: 4
+*)
+FB	Start_Repeat
+FB	C_commands
+FB	T_signals
+PG	Main

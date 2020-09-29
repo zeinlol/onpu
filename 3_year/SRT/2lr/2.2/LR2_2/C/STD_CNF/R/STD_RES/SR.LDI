@@ -1,0 +1,8 @@
+(*
+NPGI: 1
+NFBI: 2
+NI: 3
+*)
+0	PROGRAM	Main	Main	0x0003bf50	0x0000000a
+1	FUNCTION_BLOCK	func_block1_1	func_block1	0x0003bf50	0x0000000a
+1	FUNCTION_BLOCK	func_block2_1	func_block2	0x0003c14a	0x00000014

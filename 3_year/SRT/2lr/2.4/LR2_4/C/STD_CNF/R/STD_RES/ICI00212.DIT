@@ -1,0 +1,76 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 212
+QSL: 11
+QVE: 11
+QVPC: 11
+QPar: 0
+QFBI: 3
+*)
+@V 1 6 0
+Result	1	VAR_EXTERNAL	@TYP:3
+@RV 8		     
+
+;
+
+@V 1 11 0
+C_commands_1	2	VAR	@FB:214
+		     
+
+;
+
+@V 1 16 0
+Start	3	VAR_EXTERNAL	@TYP:1
+@RV 5		     
+
+;
+
+@V 1 17 0
+C1_RES	4	VAR_EXTERNAL	@TYP:1
+@RV 1		     
+
+;
+
+@V 1 18 0
+C2_RES	5	VAR_EXTERNAL	@TYP:1
+@RV 2		     
+
+;
+
+@V 1 19 0
+C3_RES	6	VAR_EXTERNAL	@TYP:1
+@RV 3		     
+
+;
+
+@V 1 20 0
+C4_RES	7	VAR_EXTERNAL	@TYP:1
+@RV 4		     
+
+;
+
+@V 1 21 0
+C5_RES	8	VAR_EXTERNAL	@TYP:1
+@RV 6		     
+
+;
+
+@V 1 22 0
+C6_RES	9	VAR_EXTERNAL	@TYP:1
+@RV 7		     
+
+;
+
+@V 1 27 0
+Start_Repeat_2	10	VAR	@FB:215
+		     
+
+;
+
+@V 1 28 0
+T_signals_1	11	VAR	@FB:213
+		     
+
+;
+

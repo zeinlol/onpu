@@ -1,0 +1,3 @@
+FUNCTION_BLOCK	func_block2			PT=1	func_block2	HIDDEN=0	
+FUNCTION_BLOCK	func_block1			PT=1	func_block1	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	

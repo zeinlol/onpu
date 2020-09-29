@@ -1,0 +1,58 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 212
+QSL: 8
+QVE: 8
+QVPC: 8
+QPar: 0
+QFBI: 2
+*)
+@V 1 6 0
+Switch_func	1	VAR_EXTERNAL	@TYP:1
+@RV 8		     
+
+;
+
+@V 1 7 0
+Result	2	VAR_EXTERNAL	@TYP:1
+@RV 7		     
+
+;
+
+@V 1 12 0
+func_block1_1	3	VAR	@FB:213
+		     
+
+;
+
+@V 1 17 0
+x1	4	VAR_EXTERNAL	@TYP:1
+@RV 1		     
+
+;
+
+@V 1 18 0
+x2	5	VAR_EXTERNAL	@TYP:1
+@RV 2		     
+
+;
+
+@V 1 19 0
+x3	6	VAR_EXTERNAL	@TYP:1
+@RV 3		     
+
+;
+
+@V 1 20 0
+x4	7	VAR_EXTERNAL	@TYP:1
+@RV 4		     
+
+;
+
+@V 1 25 0
+func_block2_1	8	VAR	@FB:214
+		     
+
+;
+

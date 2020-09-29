@@ -1,0 +1,46 @@
+(*
+T: FUNCTION_BLOCK Start_Repeat
+FW: NO
+CI#: 215
+QSL: 6
+QVE: 6
+QVPC: 6
+QPar: 4
+QFBI: 2
+*)
+@V 1 6 0
+CTU_1	1	VAR	@FB:203
+		     
+
+;
+
+@V 1 7 0
+TP_1	2	VAR	@FB:211
+		     
+
+;
+
+@V 1 12 0
+T7	3	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 13 0
+Start	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+Counts	5	VAR_OUTPUT	@TYP:3
+		     
+
+;
+
+@V 1 19 0
+T_RES	6	VAR_OUTPUT	@TYP:1
+		     
+
+;
+

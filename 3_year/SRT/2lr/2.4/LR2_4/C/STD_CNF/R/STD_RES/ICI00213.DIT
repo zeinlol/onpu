@@ -1,0 +1,70 @@
+(*
+T: FUNCTION_BLOCK T_signals
+FW: NO
+CI#: 213
+QSL: 10
+QVE: 10
+QVPC: 10
+QPar: 8
+QFBI: 2
+*)
+@V 1 6 0
+TON_1	1	VAR	@FB:210
+		     
+
+;
+
+@V 1 11 0
+T_RES	2	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+T7	3	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 17 0
+T1	4	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+T2	5	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 19 0
+T3	6	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 20 0
+T4	7	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 21 0
+T5	8	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 22 0
+T6	9	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 27 0
+TOF_1	10	VAR	@FB:209
+		     
+
+;
+

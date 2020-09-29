@@ -1,0 +1,6 @@
+(*
+NPOU: 3
+*)
+FB	func_block2
+FB	func_block1
+PG	Main

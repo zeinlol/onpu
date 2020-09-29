@@ -1,0 +1,4 @@
+FUNCTION_BLOCK	Start_Repeat			PT=1	Start_Repeat	HIDDEN=0	
+FUNCTION_BLOCK	C_commands			PT=1	C_commands	HIDDEN=0	
+FUNCTION_BLOCK	T_signals			PT=1	T_signals	HIDDEN=0	
+PROGRAM	Main			PT=1	Main	HIDDEN=0	
