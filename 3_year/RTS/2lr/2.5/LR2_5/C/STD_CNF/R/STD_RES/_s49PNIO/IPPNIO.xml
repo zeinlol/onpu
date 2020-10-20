@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IPPNIO xsi:noNamespaceSchemaLocation="IPPNIO.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version>
+		<UUID ExCRC="1">174206225218611638715522233161587010727</UUID>
+		<CfgBrokerVersion>18.630.0.1187</CfgBrokerVersion>
+		<CRC CRCVal="2056896048" ExCRC="1"></CRC>
+	</Version>
+	<CtlrParas>
+		<CtlrIP d1="192" d2="168" d3="0" d4="2" ExCRC="1"></CtlrIP>
+		<CtlrMask d1="255" d2="255" d3="255" d4="0" ExCRC="1"></CtlrMask>
+		<CtlrGate d1="192" d2="168" d3="0" d4="2" ExCRC="1"></CtlrGate>
+		<StatN>rfc-4701</StatN>
+		<Station ExCRC="1"></Station>
+		<DevName ExCRC="1"></DevName>
+		<ModEquId ExCRC="1"></ModEquId>
+		<FDCMLFile>ETHERNET\Phoenix Contact\RFC_470_PN_3TX_dtmv00_4.6F_3.82.xml</FDCMLFile>
+		<CEId>CommEnt_3</CEId>
+	</CtlrParas>
+	<ARs></ARs>
+</IPPNIO>
