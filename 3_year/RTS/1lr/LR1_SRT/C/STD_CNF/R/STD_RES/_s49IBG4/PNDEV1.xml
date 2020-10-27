@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<MONAConfig>
-<Param type="PN:InDataLength11" value="512"/>
-<Param type="PN:OutDataLength11" value="512"/>
-</MONAConfig>
