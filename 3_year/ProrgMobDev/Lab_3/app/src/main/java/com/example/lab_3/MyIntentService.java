@@ -2,57 +2,47 @@ package com.example.lab_3;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.content.Context;
-import android.os.IBinder;
+import android.os.SystemClock;
 import android.util.Log;
-import android.widget.TextView;
-
 import androidx.annotation.Nullable;
 
-import java.util.concurrent.TimeUnit;
+import java.util.Arrays;
 
 public class MyIntentService extends IntentService {
+    public static final String TAG = "MyIntentService";
 
-    /**
-     * Creates an IntentService.  Invoked by your subclass's constructor.
-     *
-     * @param name Used to name the worker thread, important only for debugging.
-     */
-    public MyIntentService(String name) {
-
-        super(name);
+    public MyIntentService() {
+        super("MyIntentService");
+        setIntentRedelivery(true);
     }
 
     @Override
     public void onCreate() {
-        Log.d("iService", "iStart do something...");
         super.onCreate();
+
     }
 
     @Override
     protected void onHandleIntent(@Nullable Intent intent) {
-        try {
-            Log.d("iService", "iStart do something...");
-            Thread.sleep(TimeUnit.SECONDS.toMillis(5));
-            Log.d("iService", "iOperation  has finished");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        Log.d(TAG, "start...");
+        int input = intent.getIntExtra("inputExtra", 0);
+        String temp = Integer.toString(input);
+        int[] arr = new int[temp.length()];
+        for (int a = 0; a < temp.length(); a++)
+        {
+            arr[a] = input %10;
+            input /= 10;
+        }
+        Arrays.sort(arr);
+        for (int i = 0; i < arr.length; i++) {
+            Log.d(TAG, "arr:   " +  arr[i] + "   " + i);
+            SystemClock.sleep(1000);
         }
     }
 
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        return super.onStartCommand(intent, flags, startId);
-    }
-
-    @Override
     public void onDestroy() {
-        Log.d("iService", "iService has stopped");
         super.onDestroy();
+        Log.d(TAG, "Done!");
     }
-
-
-
-
-
 }

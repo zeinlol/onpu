@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Lab_2</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="click_on_me">Change Text</string>
-    <string name="nick_borshchov">Nick Borshchov</string>
-    <string name="default_text">Default Text</string>
-    <string name="changed_text">New Text</string>
-</resources>
