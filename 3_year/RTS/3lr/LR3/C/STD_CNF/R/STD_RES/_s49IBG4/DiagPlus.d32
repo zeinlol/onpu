@@ -1,0 +1,7 @@
+4     
+CONSEQ_NUM	LOGNUM_REM	LOGNUM_LOCAL	ID_CODE	PD_LENGTH	PA_LENGTH	PHYS_A1	PHYS_W1	PHYS_W2	DEV_NAME	STATION_NAME	VENDOR	GROUP	TYPE	ORDER_NR	PROFILE_NR	MAX_CURRENT	MAX_DEV	BMK	PLANT_BMK	LOC_BMK	CONSTRUCT_TYPE	CABLE_IDX	CABLE_LENGTH	CABLE_BMK	FDCML_FILE
+1	1	0	4	0	0	3	14	3			Phoenix Contact		IBS IL 24 BK T/U	2742094										xxx	INTERBUS\Phoenix Contact\ibs_il_24_bk_t_uvxx.xml	
+2	1	3	190	2	0	14	0	14			Phoenix Contact		IB IL 24 DI 2	2726201										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DI_2vxx.xml	
+3	1	2	189	4	0	14	0	14			Phoenix Contact		IB IL 24 DO 4	2726256										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DO_4vxx.xml	
+4	1	1	190	8	0	14	0	14			Phoenix Contact		IB IL 24 DI 8	2726227										xxx	INTERBUS\Phoenix Contact\IB_IL_24_DI_8vxx.xml	
+INTERBUS\Phoenix Contact\rfc_450_eth_ib_mce_dtmv36_4.6d_5.06.xml
