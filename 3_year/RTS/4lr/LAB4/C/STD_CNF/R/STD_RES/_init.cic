@@ -8,6 +8,10 @@ QJ: 0
 *)
 
 		@UP_HEAD	@DEF_FB 0.0.2
+		LD	@TYP:1# 1
+		ST	%MB 102100
+		LD	@TYP:1# 1
+		ST	%MB 102101
 		@UP_END	@NULL
 
 		@UP_HEAD	@DEF_SPG 0

@@ -1,39 +1,267 @@
 (*
-T: FUNCTION_BLOCK LD_BLOCK_2
+T: FUNCTION_BLOCK SFC_BLOCK
 FW: NO
 CI#: 215
-QSL: 5
-QVE: 5
-QVPC: 5
-QPar: 3
-QFBI: 1
+QSL: 43
+QVE: 43
+QVPC: 43
+QPar: 7
+QFBI: 4
 *)
 @V 1 6 0
-IN	1	VAR_INPUT	@TYP:1
+IN_tRed	1	VAR_INPUT	@TYP:12
 		     
 
 ;
 
-@V 1 11 0
-OUT	2	VAR_OUTPUT	@TYP:1
+@V 1 7 0
+IN_tRedYellow	2	VAR_INPUT	@TYP:12
 		     
 
 ;
 
-@V 1 16 0
-TON_1	3	VAR	@FB:210
+@V 1 8 0
+IN_tGreen	3	VAR_INPUT	@TYP:12
 		     
 
 ;
 
-@V 1 21 0
-OFF	4	VAR_INPUT	@TYP:1
+@V 1 9 0
+IN_tYellow	4	VAR_INPUT	@TYP:12
 		     
 
 ;
 
-@V 2 14 0
-LD_BLOCK_2@@14	5	VAR	@TYP:1
+@V 1 17 0
+TON_Red	5	VAR	@FB:210
+		     
+
+;
+
+@V 1 18 0
+TON_RedYellow	6	VAR	@FB:210
+		     
+
+;
+
+@V 1 19 0
+TON_Green	7	VAR	@FB:210
+		     
+
+;
+
+@V 1 20 0
+TON_Yellow	8	VAR	@FB:210
+		     
+
+;
+
+@V 1 28 0
+OUT_xRed	9	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+OUT_xYellow	10	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+OUT_xGreen	11	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 2 0 0
+S_Red.X	12	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+S_Red@OLD	13	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+S_Red@FLAG	14	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 5 0
+S_RedYellow.X	15	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 5 0
+S_RedYellow@OLD	16	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 5 0
+S_RedYellow@FLAG	17	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 7 0
+S_Green.X	18	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 7 0
+S_Green@OLD	19	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 7 0
+S_Green@FLAG	20	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 9 0
+S_Yellow.X	21	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 9 0
+S_Yellow@OLD	22	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 9 0
+S_Yellow@FLAG	23	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 4 0
+T_Red	24	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 6 0
+T_RedYellow	25	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 8 0
+T_Green	26	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 1 0
+T_Yellow	27	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 12 0
+OUT_XGREEN@SET	28	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 12 0
+OUT_XGREEN@TS	29	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 2 0
+OUT_XRED@SET	30	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 2 0
+OUT_XRED@TS	31	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 11 0
+OUT_XYELLOW@SET	32	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 11 0
+OUT_XYELLOW@TS	33	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+@FIRST_CYCLE	34	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XRED.X	35	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XRED@OLD	36	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XRED@STATE	37	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XYELLOW.X	38	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XYELLOW@OLD	39	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XYELLOW@STATE	40	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XGREEN.X	41	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XGREEN@OLD	42	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+OUT_XGREEN@STATE	43	VAR	@TYP:1
 		     
 
 ;
