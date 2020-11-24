@@ -1,0 +1,40 @@
+(*
+T: FUNCTION_BLOCK LD_BLOCK_2
+FW: NO
+CI#: 215
+QSL: 5
+QVE: 5
+QVPC: 5
+QPar: 3
+QFBI: 1
+*)
+@V 1 6 0
+IN	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 11 0
+OUT	2	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+TON_1	3	VAR	@FB:210
+		     
+
+;
+
+@V 1 21 0
+OFF	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 2 14 0
+LD_BLOCK_2@@14	5	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

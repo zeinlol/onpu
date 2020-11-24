@@ -1,0 +1,46 @@
+(*
+T: FUNCTION_BLOCK LD_BLOCK
+FW: NO
+CI#: 213
+QSL: 6
+QVE: 6
+QVPC: 6
+QPar: 3
+QFBI: 2
+*)
+@V 1 6 0
+INPUT_LD_1	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 11 0
+OUTPUT_LD_1	2	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+TON_1	3	VAR	@FB:210
+		     
+
+;
+
+@V 1 17 0
+TOF_1	4	VAR	@FB:209
+		     
+
+;
+
+@V 1 22 0
+NUMBER	5	VAR_INPUT	@TYP:3
+		     
+
+;
+
+@V 2 13 0
+LD_BLOCK@@13	6	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

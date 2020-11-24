@@ -2,11 +2,11 @@
 T: PROGRAM Main
 FW: NO
 CI#: 212
-QSL: 25
-QVE: 25
-QVPC: 25
+QSL: 27
+QVE: 27
+QVPC: 27
 QPar: 0
-QFBI: 5
+QFBI: 6
 *)
 @V 1 6 0
 CTU_1	1	VAR	@FB:203
@@ -155,6 +155,18 @@ COUNTER_3	24	VAR	@TYP:3
 @V 1 70 0
 COUNTER_4	25	VAR	@TYP:3
 		     
+
+;
+
+@V 1 71 0
+TON_1	26	VAR	@FB:210
+		     
+
+;
+
+@V 1 76 0
+x	27	VAR_EXTERNAL	@TYP:1
+@RV 19		     
 
 ;
 

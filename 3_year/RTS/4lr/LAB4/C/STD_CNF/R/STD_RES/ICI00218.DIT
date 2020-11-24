@@ -1,0 +1,22 @@
+(*
+T: FUNCTION_BLOCK POTENTIOMETR_FDB
+FW: NO
+CI#: 218
+QSL: 2
+QVE: 2
+QVPC: 2
+QPar: 2
+QFBI: 0
+*)
+@V 1 6 0
+INPUT_FDB	1	VAR_INPUT	@TYP:18
+		     
+
+;
+
+@V 1 11 0
+OUTPUT	2	VAR_OUTPUT	@TYP:3
+		     
+
+;
+

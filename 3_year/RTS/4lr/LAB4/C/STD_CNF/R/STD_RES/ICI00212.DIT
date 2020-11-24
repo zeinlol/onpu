@@ -1,0 +1,88 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 212
+QSL: 13
+QVE: 13
+QVPC: 13
+QPar: 0
+QFBI: 6
+*)
+@V 1 6 0
+IL_BLOCK_1	1	VAR	@FB:214
+		     
+
+;
+
+@V 1 11 0
+IN_TO_IL_Block	2	VAR_EXTERNAL	@TYP:1
+@RV 5		     
+
+;
+
+@V 1 16 0
+ST_BLOCK_XOR_1	3	VAR	@FB:216
+		     
+
+;
+
+@V 1 21 0
+IN_TO_ST_1	4	VAR_EXTERNAL	@TYP:1
+@RV 7		     
+
+;
+
+@V 1 22 0
+IN_TO_ST_2	5	VAR_EXTERNAL	@TYP:1
+@RV 10		     
+
+;
+
+@V 1 23 0
+IN_TO_ST_3	6	VAR_EXTERNAL	@TYP:1
+@RV 11		     
+
+;
+
+@V 1 28 0
+POTENTIOMERT_ST_1	7	VAR	@FB:217
+		     
+
+;
+
+@V 1 29 0
+POTENTIOMETR_FDB_1	8	VAR	@FB:218
+		     
+
+;
+
+@V 1 30 0
+LD_BLOCK_1	9	VAR	@FB:213
+		     
+
+;
+
+@V 1 31 0
+LD_BLOCK_2_1	10	VAR	@FB:215
+		     
+
+;
+
+@V 1 36 0
+OFF	11	VAR_EXTERNAL	@TYP:1
+@RV 14		     
+
+;
+
+@V 1 37 0
+IN	12	VAR_EXTERNAL	@TYP:1
+@RV 13		     
+
+;
+
+@V 1 38 0
+ON_LD	13	VAR_EXTERNAL	@TYP:1
+@RV 15		     
+
+;
+
