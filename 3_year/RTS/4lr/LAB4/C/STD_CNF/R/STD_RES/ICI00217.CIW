@@ -1,4 +1,15 @@
 (*
-QWS: 00001
+QWS: 00012
 *)
-00001	00008	POE\ST_BLOCK_XOR\ST_BLOCK_XOR.stb
+00001	00047	POE\SFC_Svetofor\SFC_Svetofor.gb
+00002	00008	POE\SFC_Svetofor\T_Blink\T_Blink.gb
+00003	00008	POE\SFC_Svetofor\T_OFF\T_OFF.gb
+00004	00008	POE\SFC_Svetofor\T_Red\T_Red.gb
+00005	00008	POE\SFC_Svetofor\T_RedYellow\T_RedYellow.gb
+00006	00008	POE\SFC_Svetofor\T_Green\T_Green.gb
+00007	00008	POE\SFC_Svetofor\T_Green2\T_Green2.gb
+00008	00008	POE\SFC_Svetofor\T_Yellow2\T_Yellow2.gb
+00009	00008	POE\SFC_Svetofor\T_Red2\T_Red2.gb
+00010	00008	POE\SFC_Svetofor\T_Yellow\T_Yellow.gb
+00011	00015	POE\SFC_Svetofor\T_pRed\T_pRed.gb
+00012	00015	POE\SFC_Svetofor\T_pGreen\T_pGreen.gb

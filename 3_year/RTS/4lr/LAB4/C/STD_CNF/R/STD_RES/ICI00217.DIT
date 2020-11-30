@@ -1,34 +1,634 @@
 (*
-T: FUNCTION_BLOCK ST_BLOCK_XOR
+T: FUNCTION_BLOCK SFC_Svetofor
 FW: NO
 CI#: 217
-QSL: 4
-QVE: 4
-QVPC: 4
-QPar: 4
-QFBI: 0
+QSL: 104
+QVE: 104
+QVPC: 104
+QPar: 16
+QFBI: 11
 *)
 @V 1 6 0
-IN_x1	1	VAR_INPUT	@TYP:1
+Blink_mode	1	VAR_INPUT	@TYP:1
 		     
 
 ;
 
 @V 1 7 0
-IN_x2	2	VAR_INPUT	@TYP:1
+IN_tBlink	2	VAR_INPUT	@TYP:12
 		     
 
 ;
 
 @V 1 8 0
-IN_x3	3	VAR_INPUT	@TYP:1
+IN_tRed	3	VAR_INPUT	@TYP:12
 		     
 
 ;
 
-@V 1 13 0
-ST_BLOCK_XOR	4	VAR_OUTPUT	@TYP:1
+@V 1 9 0
+IN_tRedYellow	4	VAR_INPUT	@TYP:12
 		     
 
 ;
 
+@V 1 14 0
+OUT_xRed	5	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 15 0
+OUT_xYellow	6	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+OUT_xGreen	7	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 21 0
+IN_tGreen	8	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 22 0
+IN_tYellow	9	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 27 0
+TON_Yellow	10	VAR	@FB:210
+		     
+
+;
+
+@V 1 28 0
+TON_RedYellow	11	VAR	@FB:210
+		     
+
+;
+
+@V 1 29 0
+TON_Green	12	VAR	@FB:210
+		     
+
+;
+
+@V 1 30 0
+TON_BLINK	13	VAR	@FB:210
+		     
+
+;
+
+@V 1 31 0
+TON_Red	14	VAR	@FB:210
+		     
+
+;
+
+@V 1 32 0
+TON_OFF	15	VAR	@FB:210
+		     
+
+;
+
+@V 1 37 0
+OUT_xGreen2	16	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 38 0
+OUT_xYellow2	17	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 39 0
+OUT_xRed2	18	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 44 0
+TON_Green2	19	VAR	@FB:210
+		     
+
+;
+
+@V 1 45 0
+TON_Red2	20	VAR	@FB:210
+		     
+
+;
+
+@V 1 46 0
+TON_Yellow2	21	VAR	@FB:210
+		     
+
+;
+
+@V 1 51 0
+OUT_pRed	22	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 52 0
+OUT_pGreen	23	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 53 0
+OUT_pGreen2	24	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 54 0
+OUT_pRed2	25	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 59 0
+TON_pRed	26	VAR	@FB:210
+		     
+
+;
+
+@V 1 60 0
+TON_pGreen	27	VAR	@FB:210
+		     
+
+;
+
+@V 2 0 0
+Start.X	28	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+Start@OLD	29	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+Start@FLAG	30	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 11 0
+S_Blink.X	31	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 11 0
+S_Blink@OLD	32	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 11 0
+S_Blink@FLAG	33	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 14 0
+S_OFF.X	34	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 14 0
+S_OFF@OLD	35	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 14 0
+S_OFF@FLAG	36	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 20 0
+S_pRed.X	37	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 20 0
+S_pRed@OLD	38	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 20 0
+S_pRed@FLAG	39	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 21 0
+S_pGreen2.X	40	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 21 0
+S_pGreen2@OLD	41	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 21 0
+S_pGreen2@FLAG	42	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 25 0
+S_Red.X	43	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 25 0
+S_Red@OLD	44	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 25 0
+S_Red@FLAG	45	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 27 0
+S_RedYellow.X	46	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 27 0
+S_RedYellow@OLD	47	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 27 0
+S_RedYellow@FLAG	48	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 31 0
+S_Green.X	49	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 31 0
+S_Green@OLD	50	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 31 0
+S_Green@FLAG	51	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 34 0
+S_Yellow.X	52	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 34 0
+S_Yellow@OLD	53	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 34 0
+S_Yellow@FLAG	54	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 38 0
+S_Red2.X	55	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 38 0
+S_Red2@OLD	56	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 38 0
+S_Red2@FLAG	57	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 41 0
+S_RedYellow2.X	58	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 41 0
+S_RedYellow2@OLD	59	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 41 0
+S_RedYellow2@FLAG	60	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 45 0
+S_Green2.X	61	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 45 0
+S_Green2@OLD	62	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 45 0
+S_Green2@FLAG	63	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 47 0
+S_Yellow2.X	64	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 47 0
+S_Yellow2@OLD	65	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 47 0
+S_Yellow2@FLAG	66	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 50 0
+S_pGreen.X	67	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 50 0
+S_pGreen@OLD	68	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 50 0
+S_pGreen@FLAG	69	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 53 0
+S_pRed2.X	70	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 53 0
+S_pRed2@OLD	71	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 53 0
+S_pRed2@FLAG	72	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 12 0
+T_Blink	73	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 15 0
+T_OFF	74	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 26 0
+T_Red	75	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 30 0
+T_RedYellow	76	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 33 0
+T_Green	77	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 46 0
+T_Green2	78	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 39 0
+T_Yellow2	79	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 40 0
+T_Red2	80	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 16 0
+T_Yellow	81	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 51 0
+T_pRed	82	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 54 0
+T_pGreen	83	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 52 0
+OUT_PGREEN@SET	84	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 52 0
+OUT_PGREEN@TS	85	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 23 0
+OUT_PGREEN2@SET	86	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 23 0
+OUT_PGREEN2@TS	87	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 22 0
+OUT_PRED@SET	88	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 22 0
+OUT_PRED@TS	89	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 55 0
+OUT_PRED2@SET	90	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 55 0
+OUT_PRED2@TS	91	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 32 0
+OUT_XGREEN@SET	92	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 32 0
+OUT_XGREEN@TS	93	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 44 0
+OUT_XGREEN2@SET	94	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 44 0
+OUT_XGREEN2@TS	95	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 29 0
+OUT_XRED@SET	96	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 29 0
+OUT_XRED@TS	97	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 43 0
+OUT_XRED2@SET	98	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 43 0
+OUT_XRED2@TS	99	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 35 0
+OUT_XYELLOW@SET	100	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 35 0
+OUT_XYELLOW@TS	101	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 48 0
+OUT_XYELLOW2@SET	102	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 48 0
+OUT_XYELLOW2@TS	103	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+@FIRST_CYCLE	104	VAR	@TYP:1
+		     
+
+;
+PFW: RDT

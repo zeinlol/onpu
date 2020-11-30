@@ -1,39 +1,111 @@
 (*
-T: FUNCTION_BLOCK LD_BLOCK_2
+T: FUNCTION_BLOCK SFC_TRIGGER
 FW: NO
 CI#: 216
-QSL: 5
-QVE: 5
-QVPC: 5
-QPar: 3
-QFBI: 1
+QSL: 17
+QVE: 17
+QVPC: 17
+QPar: 2
+QFBI: 0
 *)
 @V 1 6 0
-IN	1	VAR_INPUT	@TYP:1
+IN_xTrigger	1	VAR_INPUT	@TYP:1
 		     
 
 ;
 
 @V 1 11 0
-OUT	2	VAR_OUTPUT	@TYP:1
+OUT_xSignal	2	VAR_OUTPUT	@TYP:1
 		     
 
 ;
 
-@V 1 16 0
-TON_1	3	VAR	@FB:210
+@V 2 0 0
+START.X	3	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+START@OLD	4	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+PFW: RDT
+@V 2 0 0
+START@FLAG	5	VAR	@TYP:1
 		     
 
 ;
-
-@V 1 21 0
-OFF	4	VAR_INPUT	@TYP:1
+PFW: RDT
+@V 2 3 0
+Edje.X	6	VAR	@TYP:1
 		     
 
 ;
+PFW: RDT
+@V 2 3 0
+Edje@OLD	7	VAR	@TYP:1
+		     
 
-@V 2 14 0
-LD_BLOCK_2@@14	5	VAR	@TYP:1
+;
+PFW: RDT
+@V 2 3 0
+Edje@FLAG	8	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 10 0
+Reset.X	9	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 10 0
+Reset@OLD	10	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 10 0
+Reset@FLAG	11	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 22 0
+Set.X	12	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 22 0
+Set@OLD	13	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 22 0
+Set@FLAG	14	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 12 0
+OUT_XSIGNAL@SET	15	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+@V 2 12 0
+OUT_XSIGNAL@TS	16	VAR	@TYP:1
+		     
+
+;
+PFW: RDT
+
+@FIRST_CYCLE	17	VAR	@TYP:1
 		     
 
 ;
