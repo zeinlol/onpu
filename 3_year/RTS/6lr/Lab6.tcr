@@ -1,0 +1,15 @@
+#!-- PPO FILE GENERATED FROM Phoenix Contact®   WebVisit on  12/04/20 04:23:12
+#!-- Start PPO INIT File
+#!-- VERSION = 4
+#!-- TYPE = 1
+#!-- TS = 5fc98f80
+#!-- N = 7
+@GV.C1_RES;@GV.C1_RES; ; ; ; ; ; ; ; ; ;
+@GV.C2_RES;@GV.C2_RES; ; ; ; ; ; ; ; ; ;
+@GV.C3_RES;@GV.C3_RES; ; ; ; ; ; ; ; ; ;
+@GV.C4_RES;@GV.C4_RES; ; ; ; ; ; ; ; ; ;
+@GV.C5_RES;@GV.C5_RES; ; ; ; ; ; ; ; ; ;
+@GV.C6_RES;@GV.C6_RES; ; ; ; ; ; ; ; ; ;
+@GV.Start;@GV.Start; ; ; ; ; ; ; ; ; ;
+#!-- End PPO INIT File
+

@@ -42,7 +42,7 @@ QR: 0
 @BPV 1 21 0		@FUPAR 2	@IV 4
 @BPV 1 24 0			
 @BPV 1 13 0		@FUPAR 2	@IFBP 2.4
-@BPV 1 37 0			
+@BPV 1 31 0			
 @BPV 1 17 0		@FURET 2	@IV 6
 @BPV 1 23 0			
 @BPV 1 18 0		@FUCA 2	
