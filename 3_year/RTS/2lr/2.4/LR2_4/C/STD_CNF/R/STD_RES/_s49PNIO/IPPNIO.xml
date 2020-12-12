@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <IPPNIO xsi:noNamespaceSchemaLocation="IPPNIO.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Version>
-		<UUID ExCRC="1">344231914331279182751322111194530234899</UUID>
+		<UUID ExCRC="1">3843839288338261970515886402078333205162</UUID>
 		<CfgBrokerVersion>18.630.0.1202</CfgBrokerVersion>
 		<CRC CRCVal="1730066900" ExCRC="1"></CRC>
 	</Version>

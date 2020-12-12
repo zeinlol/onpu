@@ -115,25 +115,25 @@ RED	18	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-
+PFW: PDD
 @V 2 24 0
 YELLOW	19	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-PFW: RDT
+PFW: PDD
 @V 2 25 0
 GREEN	20	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-PFW: RDT
+PFW: PDD
 @V 2 26 0
 Blink	21	VAR_GLOBAL	@TYP:1
 %IX 0.0		     
 
 ;
-
+PFW: PDD
 @V 2 27 0
 IN_tBlink	22	VAR_GLOBAL	@TYP:1
 		     
@@ -166,7 +166,7 @@ IN_tYellow	26	VAR_GLOBAL	@TYP:1
 PFW: RDT
 @V 2 32 0
 START	27	VAR_GLOBAL	@TYP:1
-%IX 0.1		     
+%IX 1.6		     
 
 ;
 
@@ -193,43 +193,43 @@ RED2	31	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-
+PFW: PDD
 @V 2 37 0
 YELLOW2	32	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-PFW: RDT
+PFW: PDD
 @V 2 38 0
 GREEN2	33	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-PFW: RDT
+PFW: PDD
 @V 2 39 0
 RED3	34	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-
+PFW: PDD
 @V 2 40 0
 GREEN3	35	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-PFW: RDT
+PFW: PDD
 @V 2 41 0
 RED4	36	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-
+PFW: PDD
 @V 2 42 0
 GREEN4	37	VAR_GLOBAL	@TYP:1
 		     
 
 ;
-PFW: RDT
+PFW: PDD
 @V 2 50 0
 PLCMODE_ON	38	VAR_GLOBAL	@TYP:1
 %MX 1.0.0		     

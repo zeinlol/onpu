@@ -1,0 +1,11 @@
+#!-- PPO FILE GENERATED FROM Phoenix Contact®   WebVisit on  12/11/20 07:55:01
+#!-- Start PPO INIT File
+#!-- VERSION = 4
+#!-- TYPE = 1
+#!-- TS = 5fd309b5
+#!-- N = 3
+@GV.Blink;@GV.Blink; ; ; ; ; ; ; ; ; ;
+@GV.RED;@GV.RED; ; ; ; ; ; ; ; ; ;
+@GV.YELLOW;@GV.YELLOW; ; ; ; ; ; ; ; ; ;
+#!-- End PPO INIT File
+
