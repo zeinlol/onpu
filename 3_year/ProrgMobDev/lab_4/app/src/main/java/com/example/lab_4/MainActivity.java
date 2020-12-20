@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Intent intent = new Intent(ACTION);
         ArrayList<String> students = new ArrayList<>();
-        students.add("Alexander Broshovyan");
-        students.add("Nikolai Borshov");
-        students.add("Andrew Vedeniev");
         students.add("Michael Lipilov");
+        students.add("Nikolai Borshov");
         students.add("Alexander Gymenuk");
+        students.add("Alexander Broshovyan");
+        students.add("Andrew Vedeniev");
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, students);
         ListView studentsList = (ListView) findViewById(R.id.studentsList);
         studentsList.setAdapter(adapter);

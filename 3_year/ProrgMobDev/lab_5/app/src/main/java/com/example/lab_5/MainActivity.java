@@ -37,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         LocalBroadcastManager.getInstance(this).registerReceiver(receiver, new IntentFilter(ACTION_RECEIVE_RESULT));
         ArrayList<Integer> numbers = new ArrayList<>();
-        numbers.add(23);
-        numbers.add(5);
-        numbers.add(15);
-        numbers.add(134);
-        numbers.add(76);
-        numbers.add(45);
+        numbers.add(87);
+        numbers.add(6);
+        numbers.add(78);
+        numbers.add(63);
+        numbers.add(97);
+        numbers.add(57);
         Intent intent = new Intent(this, MyIntentService.class);
         intent.putExtra(EXTRA_NUMBERS, numbers);
         startService(intent);
