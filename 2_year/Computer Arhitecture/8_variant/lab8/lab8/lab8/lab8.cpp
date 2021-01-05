@@ -9,14 +9,13 @@ short func(short mass1, short mass2)
 {
     _asm {
         mov result, 0
-        add counter, 1
         //mov ecx, 3
         mov si, [mass1]    //      загрузка элемента массива 1 в si
         mov di, [mass2]    //      загрузка элемента массива 2 в di
         cmp si, di         //      сравнение si с di
-        JE miss            //      если si не равна di
-        add result, 1      //      добавление 1 к сумарной разнице
-
+        JNE miss            //      если si не равна di
+        add result, 1
+        jmp miss
         miss:              //      следующий элемент массива
     }
     return result;
@@ -32,20 +31,23 @@ int cout_mass(string mass[5][4]) {
 }
 int main()
 {
+    string word1, word2;
     // таблица 1
     string mass1[5][4] = { "qwe", "wer", "ert", "rty", "tyu" , "yui", "uio" , "iop", "op[" , "p[]", "asd", "sdf", "dfg", "fgh", "ghj", "hjk", "jkl", "kl;", "zxc", "xcv" };
     // таблица 2
-    string mass2[5][4] = { "qwe", "wer", "ert", "rty", "tyu" , "yui", "uio" , "iop", "op[" , "p[]", "aVd", "sdf", "dfg", "fgh", "Ahj", "hjk", "jkl", "kl;", "zxc", "xcv" };
+    string mass2[5][4] = { "qwe", "wer", "ert", "rty", "tyu" , "yui", "uio" , "iop", "op[" , "p[]", "asd", "sdf", "dfg", "fgh", "ghj", "hjk", "jkl", "kl;", "zxc", "xcv" };
     cout << "Table 1: " << endl;
     cout_mass(mass1);                           // вывод таблицы 1
-    cout << "Table 2: " << endl;
-    cout_mass(mass2);                           // вывод таблицы 2
+    cout << "Enter target word: ";
+    cin >> word1;
+    cout << "Enter new word: ";
+    cin >> word2;
     cout << "Looking for diff... " << endl;
     string diff_name = "Tables are same";
     for (int i = 0; i < 5; ++i) {
-        for (int j = 0; j < 4; ++j) {            
+        for (int j = 0; j < 4; ++j) {
             string s1 = mass1[i][j];
-            string s2 = mass2[i][j];
+            string s2 = word1;
             char mas1[3];
             char mas2[3];
             int m1 = 0;
@@ -55,18 +57,17 @@ int main()
             for (int a = 0; a < 3; a++)
             {
                 m1 += mas1[a];                 // перевод слова 1ой таблицы в сумму значеий символов
-                m2 += mas2[a];                 // перевод слова 2ой таблицы в сумму значеий символов
+                m2 += mas2[a];
             }
-            if (func(m1, m2) >= 1) {           // сравнение полученных чисел. ¬ случае, если разные - выход из цикла и запоминание изм. имени 
-                diff_name = mass1[i][j] + " " + mass2[i][j];
-                break;
-            }
-            
+            mass2[i][j] = s1;
+            if (func(m1, m2))
+                mass2[i][j] = word2;           // сравнение полученных чисел. ¬ случае, если разные - выход из цикла и запоминание изм. имени 
         }
-        if (diff_name != "Tables are same")    // если есть изменени€ - окончательный выход из цикла
-            break;
     }
-    cout << "Diff position: " << counter <<  "  Diff word: " << diff_name << endl; // вывод результата
+    
     cout << "Done! ";
+    cout << "New array: " << endl; // вывод результата
+    cout_mass(mass2);
+    cout << "Bye!";
     return 0;
 }

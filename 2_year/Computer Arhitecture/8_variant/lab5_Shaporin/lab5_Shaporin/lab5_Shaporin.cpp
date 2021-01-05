@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-short result = 0;
+short respos = 0, resneg = 0, reszero = 0;
 short func(short arr, short c, short d)
 {
     
@@ -11,28 +11,45 @@ short func(short arr, short c, short d)
 
         mov cx, arr         //      загружаю элемент массива в cx
         cmp cx, 0           //      сравниваю сх с 0
-            JG miss         //      если сх > 0, ничего не делаю, беру следующий элемент массива
+            JE zeroN         //      если сх > 0, ничего не делаю, беру следующий элемент массива
+			JL lowN
+			JG highN
 
-        
-        mov bx, c           //      загружаю в bх с 
-        cmp cx, bx          //      сравниваю ax c bx (с)
-            JGE nextStep    //      если arr >= min, переходим дальше    JGE = jump greater equals cx >= bx
-        JMP miss            //      иначе беру следующий элемент массива
+        lowN:
+			mov bx, c           //      загружаю в bх с 
+			cmp cx, bx          //      сравниваю ax c bx (с)
+				JGE lowStep    //      если arr >= min, переходим дальше    JGE = jump greater equals cx >= bx
+			JMP miss            //      иначе беру следующий элемент массива
 
-
-        nextStep:           //      переход "дальше"
-            mov bx, d       //      загружаю в bx d
-            cmp cx, bx      //      сравниваю aх с bx (d)
-                JLE lastStep //      если arr < d, переход на lastStep     JLE = jump less equal cx <= bx
+		highN:
+			mov bx, c           //      загружаю в bх с 
+			cmp cx, bx          //      сравниваю ax c bx (с)
+				JGE highStep    //      если arr >= min, переходим дальше    JGE = jump greater equals cx >= bx
+			JMP miss            //      иначе беру следующий элемент массива
+        lowStep:				//      переход "дальше"
+            mov bx, d			//      загружаю в bx d
+            cmp cx, bx			//      сравниваю aх с bx (d)
+                JLE lastlow		//      если arr < d, переход на lastStep     JLE = jump less equal cx <= bx
             jmp miss
+		highStep:           //      переход "дальше"
+			mov bx, d       //      загружаю в bx d
+			cmp cx, bx      //      сравниваю aх с bx (d)
+				JLE lasthigh //      если arr < d, переход на lastStep     JLE = jump less equal cx <= bx
+			jmp miss
 
-        lastStep:           //      lastStep
-            add result,1    //      добавл€ю к счЄтчику 1
+        lastlow:           //      lastStep
+            add resneg,1    //      добавл€ю к счЄтчику 1
             JMP miss
+		lasthigh:           //      lastStep
+			add respos, 1    //      добавл€ю к счЄтчику 1
+			JMP miss
+		zeroN:
+			add reszero, 1    //      добавл€ю к счЄтчику 1
+			JMP miss
     JMP miss                //      прыгаю на следующий элемент массива
     miss:                   //      следующий элемент массива
     }
-    return result;
+    return respos, resneg, reszero;
 }
 
 int main()
@@ -51,6 +68,6 @@ int main()
     for (int i = 0; i < 5; i++) {
         func(mas[i], c, d);
     }
-    cout << "Result: " << result;
+    cout << "Positive numbers: " << respos << ". Negative numbers: " << resneg << ". Zero numbers: " << reszero << '.';
     return 0;
 }

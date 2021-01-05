@@ -1,0 +1,63 @@
+﻿  lab5_Shaporin.cpp
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(7): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(9): error C2065: mov: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "dx"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(9): error C2065: dx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(12): error C2065: mov: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cx"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(12): error C2065: cx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(13): error C2065: cmp: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cx"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(13): error C2065: cx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JG"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(14): error C2065: JG: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "miss"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(14): error C2065: miss: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(17): error C2065: mov: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bx"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(17): error C2065: bx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(18): error C2065: cmp: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cx"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(18): error C2065: cx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(18): error C2065: bx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JGE"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(19): error C2065: JGE: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "nextStep"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(19): error C2065: nextStep: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JMP"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(20): error C2065: JMP: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "miss"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(20): error C2065: miss: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "nextStep"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(24): error C2065: mov: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(24): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bx"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(24): error C2065: bx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(25): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(25): error C2065: cmp: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(25): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cx"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(25): error C2065: cx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(25): error C2065: bx: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(26): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JLE"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(26): error C2065: JLE: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(27): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "lastStep"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(26): error C2065: lastStep: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(27): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jmp"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(27): error C2065: jmp: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(29): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "miss"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(27): error C2065: miss: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(29): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "lastStep"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(30): error C2065: add: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(30): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "result"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(31): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JMP"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(31): error C2065: JMP: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(32): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "miss"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(31): error C2065: miss: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(32): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JMP"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(32): error C2065: JMP: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(33): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "miss"
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(32): error C2065: miss: необъявленный идентификатор
+c:\users\дача\documents\8_variant\8_variant\lab5_shaporin\lab5_shaporin\lab5_shaporin.cpp(34): error C2059: синтаксическая ошибка: }

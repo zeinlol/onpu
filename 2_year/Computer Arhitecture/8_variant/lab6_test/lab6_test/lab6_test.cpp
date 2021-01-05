@@ -9,14 +9,14 @@ short b = 0;
 short p = 0;
 int enter = 0;
 int main() {
-    cout << "Enter 1 for using 3 lab, 2 for 4 lab, any other key - exit. Your choose: ";
+    cout << "3 lab - 1\n4 lab - 2\nany other key - exit.\nYour choose: ";
     cin >> enter;
     if (enter == 1) {
         cout << "Enter a: ";
         cin >> a;
-        cout << "Enter b: ";
+        cout << "Enter d: ";
         cin >> b;
-        cout << "Enter p: ";
+        cout << "Enter c: ";
         cin >> p;
         lab3_func(a, b, p);
     }

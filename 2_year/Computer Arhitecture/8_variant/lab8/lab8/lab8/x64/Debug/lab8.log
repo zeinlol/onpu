@@ -1,0 +1,16 @@
+﻿  lab8.cpp
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(10): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(11): error C2065: mov: необъявленный идентификатор
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "result"
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(12): error C2065: add: необъявленный идентификатор
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "counter"
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(14): error C2065: mov: необъявленный идентификатор
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "si"
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(14): error C2065: si: необъявленный идентификатор
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(15): error C3260: "идентификатор": пропускаются непредвиденные токены перед телом лямбда-функции
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(26): error C2065: mass: необъявленный идентификатор
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(32): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(33): error C2601: main: недопустимые локальные определения функций
+z:\downloads\8_variant\8_variant\8_variant\lab8\lab8\lab8\lab8.cpp(65): fatal error C1004: непредвиденное обнаружение конца файла
