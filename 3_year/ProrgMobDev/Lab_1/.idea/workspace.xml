@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8fd8d3b-b64b-485f-982b-e763090b6b34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab2/app/src/main/res/layout/fragment_student.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/.vs/lab8/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/.vs/lab8/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/.vs/lab8/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/.vs/lab8/v16/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/Debug/lab8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/Debug/lab8.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/Debug/lab8.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/Debug/lab8.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/Debug/lab8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/Debug/lab8.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.exe.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/lab8.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/lab8.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/lab8.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/vc142.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/Debug/vc142.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/lab8.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2_year/Computer Arhitecture/Miashas/lab8/lab8/lab8/lab8.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/1_lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1_lab.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FirstLab" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -61,5 +43,11 @@
       <updated>1603996962333</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1610452669187">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1610452669187" />
   </component>
 </project>
