@@ -1,0 +1,119 @@
+[Closed Files]
+File_0=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\Orlan32.dpr',0,1,1,1,1,0,0
+File_1=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\main.pas',0,1,405,1,420,0,0
+File_2=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\imit_in.pas',0,1,353,1,370,0,0
+File_3=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\mnetwork.pas',0,1,336,1,366,0,0
+File_4=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\mjob.pas',0,1,28,1,43,0,0
+File_5=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\mdomain.pas',0,1,17,1,30,0,0
+File_6=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\mnetnode.pas',0,1,7,1,18,0,0
+File_7=SourceModule,'C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\OrLAN\OrLAN.pas',0,1,136,1,145,0,0
+File_8=SourceModule,'e:\program files\borland\delphi7\source\rtl\Sys\system.pas',0,1,55,1,18,0,0
+File_9=SourceModule,'e:\program files\borland\delphi7\source\rtl\Sys\sysutils.pas',0,1,216,1,228,0,0
+
+[Modules]
+Count=0
+EditWindowCount=0
+
+[C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\orlan_old\ORLAN.BPG]
+FormState=0
+FormOnTop=0
+
+[C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\orlan_old\Orlan32.dpr]
+FormState=0
+FormOnTop=0
+
+[C:\Мои документы\_ospu\nesterenko\OrLAN.IST\Sourses\orlan_old\Orlan32.todo]
+FormState=0
+FormOnTop=0
+
+[Watches]
+Count=0
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=1024
+Height=105
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1016
+ClientHeight=78
+
+[ProjectManager]
+Create=1
+Visible=0
+State=0
+Left=369
+Top=372
+Width=438
+Height=303
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=430
+ClientHeight=279
+TBDockHeight=303
+LRDockWidth=438
+Dockable=1
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=107
+Width=156
+Height=82
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=359
+Width=190
+Height=381
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=357
+TBDockHeight=381
+LRDockWidth=190
+Dockable=1
+SplitPos=85
+ArrangeBy=Name
+SelectedItem=
+ExpandedItems=
+HiddenCategories=
+
+[ObjectTree]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=105
+Width=190
+Height=252
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=228
+TBDockHeight=252
+LRDockWidth=190
+Dockable=1
+
+[DockHosts]
+DockHostCount=0
+
