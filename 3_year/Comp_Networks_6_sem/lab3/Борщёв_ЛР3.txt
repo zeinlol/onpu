@@ -1,0 +1,154 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-04-01 23:19 FLE Daylight Time
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 23:19
+Completed NSE at 23:19, 0.00s elapsed
+Initiating NSE at 23:19
+Completed NSE at 23:19, 0.00s elapsed
+Initiating NSE at 23:19
+Completed NSE at 23:19, 0.00s elapsed
+Initiating ARP Ping Scan at 23:19
+Scanning 192.168.1.1 [1 port]
+Completed ARP Ping Scan at 23:19, 0.07s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 23:19
+Completed Parallel DNS resolution of 1 host. at 23:19, 0.00s elapsed
+Initiating SYN Stealth Scan at 23:19
+Scanning 192.168.1.1 [1000 ports]
+Discovered open port 80/tcp on 192.168.1.1
+Discovered open port 22/tcp on 192.168.1.1
+Discovered open port 53/tcp on 192.168.1.1
+Increasing send delay for 192.168.1.1 from 0 to 5 due to 34 out of 84 dropped probes since last increase.
+Discovered open port 1900/tcp on 192.168.1.1
+Increasing send delay for 192.168.1.1 from 5 to 10 due to 93 out of 231 dropped probes since last increase.
+Completed SYN Stealth Scan at 23:20, 38.02s elapsed (1000 total ports)
+Initiating Service scan at 23:20
+Scanning 4 services on 192.168.1.1
+Completed Service scan at 23:20, 23.25s elapsed (4 services on 1 host)
+Initiating OS detection (try #1) against 192.168.1.1
+WARNING: Service 192.168.1.1:1900 had already soft-matched upnp, but now soft-matched rtsp; ignoring second value
+WARNING: Service 192.168.1.1:1900 had already soft-matched upnp, but now soft-matched sip; ignoring second value
+NSE: Script scanning 192.168.1.1.
+Initiating NSE at 23:20
+Completed NSE at 23:20, 8.21s elapsed
+Initiating NSE at 23:20
+Completed NSE at 23:20, 0.06s elapsed
+Initiating NSE at 23:20
+Completed NSE at 23:20, 0.00s elapsed
+Nmap scan report for 192.168.1.1
+Host is up (0.00s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     Dropbear sshd 2011.54 (protocol 2.0)
+| ssh-hostkey: 
+|_  1040 2b:ee:15:4c:70:51:1a:35:55:98:c2:2f:e3:18:3d:bc (RSA)
+53/tcp   open  domain  dnsmasq 2.62
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.62
+80/tcp   open  http    BusyBox http 1.19.4
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-title: Site doesn't have a title (text/html).
+1900/tcp open  upnp    MiniUPnP 1.8 (UPnP 1.1)
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 404 Not Found
+|     Content-Type: text/html
+|     Connection: close
+|     Content-Length: 134
+|     Server: TP-Link/TP-LINK UPnP/1.1 MiniUPnPd/1.8
+|     Ext:
+|     <HTML><HEAD><TITLE>404 Not Found</TITLE></HEAD><BODY><H1>Not Found</H1>The requested URL was not found on this server.</BODY></HTML>
+|   GenericLines: 
+|     501 Not Implemented
+|     Content-Type: text/html
+|     Connection: close
+|     Content-Length: 149
+|     Server: TP-Link/TP-LINK UPnP/1.1 MiniUPnPd/1.8
+|     Ext:
+|     <HTML><HEAD><TITLE>501 Not Implemented</TITLE></HEAD><BODY><H1>Not Implemented</H1>The HTTP Method is not implemented by this server.</BODY></HTML>
+|   HTTPOptions: 
+|     HTTP/1.0 501 Not Implemented
+|     Content-Type: text/html
+|     Connection: close
+|     Content-Length: 149
+|     Server: TP-Link/TP-LINK UPnP/1.1 MiniUPnPd/1.8
+|     Ext:
+|     <HTML><HEAD><TITLE>501 Not Implemented</TITLE></HEAD><BODY><H1>Not Implemented</H1>The HTTP Method is not implemented by this server.</BODY></HTML>
+|   RTSPRequest: 
+|     RTSP/1.0 501 Not Implemented
+|     Content-Type: text/html
+|     Connection: close
+|     Content-Length: 149
+|     Server: TP-Link/TP-LINK UPnP/1.1 MiniUPnPd/1.8
+|     Ext:
+|     <HTML><HEAD><TITLE>501 Not Implemented</TITLE></HEAD><BODY><H1>Not Implemented</H1>The HTTP Method is not implemented by this server.</BODY></HTML>
+|   SIPOptions: 
+|     SIP/2.0 501 Not Implemented
+|     Content-Type: text/html
+|     Connection: close
+|     Content-Length: 149
+|     Server: TP-Link/TP-LINK UPnP/1.1 MiniUPnPd/1.8
+|     Ext:
+|_    <HTML><HEAD><TITLE>501 Not Implemented</TITLE></HEAD><BODY><H1>Not Implemented</H1>The HTTP Method is not implemented by this server.</BODY></HTML>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1900-TCP:V=7.91%I=7%D=4/1%Time=60662B0F%P=i686-pc-windows-windows%r
+SF:(GetRequest,117,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20t
+SF:ext/html\r\nConnection:\x20close\r\nContent-Length:\x20134\r\nServer:\x
+SF:20TP-Link/TP-LINK\x20UPnP/1\.1\x20MiniUPnPd/1\.8\r\nExt:\r\n\r\n<HTML><
+SF:HEAD><TITLE>404\x20Not\x20Found</TITLE></HEAD><BODY><H1>Not\x20Found</H
+SF:1>The\x20requested\x20URL\x20was\x20not\x20found\x20on\x20this\x20serve
+SF:r\.</BODY></HTML>\r\n")%r(GenericLines,124,"\x20501\x20Not\x20Implement
+SF:ed\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Len
+SF:gth:\x20149\r\nServer:\x20TP-Link/TP-LINK\x20UPnP/1\.1\x20MiniUPnPd/1\.
+SF:8\r\nExt:\r\n\r\n<HTML><HEAD><TITLE>501\x20Not\x20Implemented</TITLE></
+SF:HEAD><BODY><H1>Not\x20Implemented</H1>The\x20HTTP\x20Method\x20is\x20no
+SF:t\x20implemented\x20by\x20this\x20server\.</BODY></HTML>\r\n")%r(HTTPOp
+SF:tions,12C,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nContent-Type:\x20t
+SF:ext/html\r\nConnection:\x20close\r\nContent-Length:\x20149\r\nServer:\x
+SF:20TP-Link/TP-LINK\x20UPnP/1\.1\x20MiniUPnPd/1\.8\r\nExt:\r\n\r\n<HTML><
+SF:HEAD><TITLE>501\x20Not\x20Implemented</TITLE></HEAD><BODY><H1>Not\x20Im
+SF:plemented</H1>The\x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\x
+SF:20this\x20server\.</BODY></HTML>\r\n")%r(RTSPRequest,12C,"RTSP/1\.0\x20
+SF:501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nConnection:\
+SF:x20close\r\nContent-Length:\x20149\r\nServer:\x20TP-Link/TP-LINK\x20UPn
+SF:P/1\.1\x20MiniUPnPd/1\.8\r\nExt:\r\n\r\n<HTML><HEAD><TITLE>501\x20Not\x
+SF:20Implemented</TITLE></HEAD><BODY><H1>Not\x20Implemented</H1>The\x20HTT
+SF:P\x20Method\x20is\x20not\x20implemented\x20by\x20this\x20server\.</BODY
+SF:></HTML>\r\n")%r(FourOhFourRequest,117,"HTTP/1\.0\x20404\x20Not\x20Foun
+SF:d\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Leng
+SF:th:\x20134\r\nServer:\x20TP-Link/TP-LINK\x20UPnP/1\.1\x20MiniUPnPd/1\.8
+SF:\r\nExt:\r\n\r\n<HTML><HEAD><TITLE>404\x20Not\x20Found</TITLE></HEAD><B
+SF:ODY><H1>Not\x20Found</H1>The\x20requested\x20URL\x20was\x20not\x20found
+SF:\x20on\x20this\x20server\.</BODY></HTML>\r\n")%r(SIPOptions,12B,"SIP/2\
+SF:.0\x20501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20149\r\nServer:\x20TP-Link/TP-LINK\
+SF:x20UPnP/1\.1\x20MiniUPnPd/1\.8\r\nExt:\r\n\r\n<HTML><HEAD><TITLE>501\x2
+SF:0Not\x20Implemented</TITLE></HEAD><BODY><H1>Not\x20Implemented</H1>The\
+SF:x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\x20this\x20server\.
+SF:</BODY></HTML>\r\n");
+MAC Address: 60:32:B1:14:FF:72 (Tp-link Technologies)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.10
+Uptime guess: 6.463 days (since Fri Mar 26 11:14:51 2021)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=250 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.00 ms 192.168.1.1
+
+NSE: Script Post-scanning.
+Initiating NSE at 23:20
+Completed NSE at 23:20, 0.00s elapsed
+Initiating NSE at 23:20
+Completed NSE at 23:20, 0.00s elapsed
+Initiating NSE at 23:20
+Completed NSE at 23:20, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 73.52 seconds
+           Raw packets sent: 1799 (79.950KB) | Rcvd: 1038 (42.346KB)

@@ -1,0 +1,10 @@
+(deffacts parameters (days 10)(works 100)(temper 350)(rain 10))
+
+(defrule R1 (days 10)(works 100)=>(assert (free_time no)))
+(defrule R2 (days 20)(works 10)=>(assert (free_time yes)))
+(defrule R3 (temper 350)(rain 10)=>(assert (weather awful)))
+(defrule R4 (temper 300)(rain 0)=>(assert (weather good)))
+(defrule R5 (free_time yes)(weather good)=>(assert (act DO_IT!!)))
+(defrule R6 (free_time yes)(weather awful)=>(assert (act cantdoitman...)))
+(defrule R7 (free_time no)(weather good)=>(assert (act cantdoitman...)))
+(defrule R8 (free_time no)(weather awful)=>(assert (act cantdoitman...)))
