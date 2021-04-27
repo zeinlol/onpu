@@ -98,11 +98,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
-	  if (BTN_KEY)
-	  	  LED_ON;
-	  else
-		  LED_OFF;
+	  if (BTN_KEY && htim->Instance == TIM1){
+	  		LED_ON;
+	  	} else{
+	  		LED_OFF;
+	  	}
+	  /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -158,6 +160,7 @@ static void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */

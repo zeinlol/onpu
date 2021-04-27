@@ -188,7 +188,10 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-
+  if(++Time1==100){
+	  Time1=0;
+	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+  }
   /* USER CODE END SysTick_IRQn 1 */
 }
 
