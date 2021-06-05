@@ -1,0 +1,80 @@
+:Base D:\PARALLEL\NEWHELP\PLHELP.HLP
+1 Общее описание
+2 Назначение программной системы=hc_Naznachenie_programmnoy_sistemy
+2 Возможности системы=hc_Vozmozhnosti_sistemy
+2 Демонстрационный пример=hc_Demonstratsionnyy_primer
+1 Описание применяемых параллельных алгоритмов
+2 Принципы построения параллельных алгоритмов=hc_Printsipy_postroeniya_parallelnyh_algoritmov
+2 Сортировка
+3 Задача сортировки линейных массивов=hc_Zadacha_sortirovki_lineynyh_massivov
+3 Пузырьковая сортировка=hc_Puzyrkovaya_sortirovka
+3 Сортировка Шелла=hc_Sortirovka_SHella
+3 Быстрая сортировка=hc_Bystraya_sortirovka
+2 Матричное умножение
+3 Задача матричного умножения=hc_Zadacha_matrichnogo_umnozheniya
+3 Ленточный алгоритм=hc_Lentochnyy_algoritm
+3 Алгоритм Фокса=hc_Algoritm_Foksa
+3 Алгоритм Кэннона=hc_Algoritm_Kennona
+2 Обработка графов
+3 Математическая модель графа=hc_Matematicheskaya_model_grafa
+3 Алгоритм Прима поиска минимального охватывающего дерева=hc_Algoritm_Prima_poiska_minimalnogo_ohvatyvayuschego_dereva
+3 Алгоритм Дейкстры поиска кратчайших путей=hc_Algoritm_Deykstry_poiska_kratchayshih_putey
+1 Средства визуальной демонстрации процесса выполнения эксперимента
+2 Окно эксперимента=hc_Okno_eksperimenta
+2 Область «Выполнение эксперимента»=hc_Oblast_Vypolnenie_eksperimenta
+2 Область «Текущее состояние массива»=hc_Oblast_Tekuschee_sostoyanie_massiva
+2 Область «Результат умножения матриц»=hc_Oblast_Rezultat_umnozheniya_matrits
+2 Ленточный индикатор=hc_Lentochnyy_indikator
+2 Временные характеристики=hc_Vremennye_harakteristiki
+1 Средства визуальной демонстрации результатов экспериментов
+2 Общие итоги=hc_Obschie_itogi
+2 Журнал экспериментов=hc_ZHurnal_eksperimentov
+1 Описание команд системы
+2 Основное меню
+3 Пункт меню «Архив»=hc_Punkt_menyu_Arhiv
+3 Пункт меню «Система»=hc_Punkt_menyu_Sistema
+3 Пункт меню «Задача»=hc_Punkt_menyu_Zadacha
+3 Пункт меню «Графика»=hc_Punkt_menyu_Grafika
+3 Пункт меню «Выполнение»=hc_Punkt_menyu_Vypolnenie
+3 Пункт меню «Результаты»=hc_Punkt_menyu_Rezultaty
+3 Пункт меню «Эксперимент»=hc_Punkt_menyu_Eksperiment
+3 Пункт меню «Справка»=hc_Punkt_menyu_Spravka
+2 Дополнительные меню
+3 Начальное меню системы=hc_Nachalnoe_menyu_sistemy
+3 Меню выполнения эксперимента=hc_Menyu_vypolneniya_eksperimenta
+3 Меню пошагового выполнения эксперимента=hc_Menyu_poshagovogo_vypolneniya_eksperimenta
+3 Меню выполнения серии экспериментов=hc_Menyu_vypolneniya_serii_eksperimentov
+1 Руководство Пользователя
+2 Задание параметров вычислительной системы
+3 Выбор топологии=hc_Vybor_topologii
+3 Выбор количества процессоров=hc_Vybor_kolichestva_protsessorov
+3 Определение производительности процессора=hc_Opredelenie_proizvoditelnosti_protsessora
+3 Определение характеристик сети=hc_Opredelenie_harakteristik_seti
+3 Определение метода передачи данных=hc_Opredelenie_metoda_peredachi_dannyh
+2 Постановка задачи
+3 Задание параметров задачи=hc_Zadanie_parametrov_zadachi
+3 Формирование графа=hc_Formirovanie_grafa
+2 Выполнение экспериментов
+3 Режимы выполнения экспериментов
+4 Пошаговое выполнение эксперимента=hc_Poshagovoe_vypolnenie_eksperimenta
+4 Выполнение серии экспериментов=hc_Vypolnenie_serii_eksperimentov
+3 Копирование параметров
+4 Копирование параметров задачи и системы из окна в окно=hc_Kopirovanie_parametrov_zadachi_i_sistemy_iz_okna_v_okno
+3 Визуализация процесса выполнения эксперимента
+4 Выбор темпа демонстрации=hc_Vybor_tempa_demonstratsii
+4 Выбор процессора=hc_Vybor_protsessora
+4 Визуализация пузырьковой сортировки и сортировки Шелла=hc_Vizualizatsiya_puzyrkovoy_sortirovki_i_sortirovki_SHella
+4 Визуализации быстрой сортировки=hc_Vizualizatsii_bystroy_sortirovki
+4 Визуализация ленточного алгоритма умножения матриц=hc_Vizualizatsiya_lentochnogo_algoritma_umnozheniya_matrits
+4 Визуализация алгоритмов Фокса и Кэннона умножения матриц=hc_Vizualizatsiya_algoritmov_Foksa_i_Kennona_umnozheniya_matrits
+2 Анализ результатов
+3 Страница итогов
+4 Накопление итогов экспериментов=hc_Nakoplenie_itogov_eksperimentov
+4 Просмотр итогов=hc_Prosmotr_itogov
+4 Свойства таблицы результатов=hc_Svoystva_tablitsy_rezultatov
+4 Свойства листа графиков=hc_Svoystva_lista_grafikov
+3 Журнал экспериментов
+4 Накопление записей=hc_Nakoplenie_zapisey
+4 Просмотр Журнала экспериментов=hc_Prosmotr_ZHurnala_eksperimentov
+1 Литература
+2 Литература=hc_Literatura

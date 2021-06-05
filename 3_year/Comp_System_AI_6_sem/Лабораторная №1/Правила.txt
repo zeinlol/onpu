@@ -1,0 +1,39 @@
+(defrule R1 (days 3)(works 0%) => (assert (free_time "few")))
+(defrule R2 (days 3)(works 20%) => (assert (free_time "few")))
+(defrule R3 (days 3)(works 50%) => (assert (free_time "absent")))
+
+(defrule R4 (days 4)(works 0%) => (assert (free_time "a lot")))
+(defrule R5 (days 4)(works 20%) => (assert (free_time "few")))
+(defrule R6 (days 4)(works 50%) => (assert (free_time "absent")))
+
+(defrule R7 (days 5)(works 0%) => (assert (free_time "a lot")))
+(defrule R8 (days 5)(works 20%) => (assert (free_time "a lot")))
+(defrule R9 (days 5)(works 50%) => (assert (free_time "few")))
+
+-----
+
+(defrule R10 (temp 5)(rain "light") => (assert (weather "good")))
+(defrule R11 (temp 5)(rain "normal") => (assert (weather "bad")))
+(defrule R12 (temp 5)(rain "heavy") => (assert (weather "bad")))
+
+(defrule R13 (temp 15)(rain "light") => (assert (weather "excellent")))
+(defrule R14 (temp 15)(rain "normal") => (assert (weather "good")))
+(defrule R15 (temp 15)(rain "heavy") => (assert (weather "bad")))
+
+(defrule R16 (temp 30)(rain "light") => (assert (weather "excellent")))
+(defrule R17 (temp 30)(rain "normal") => (assert (weather "excellent")))
+(defrule R18 (temp 30)(rain "heavy") => (assert (weather "good")))
+
+-----
+
+(defrule R19 (free_time "absent")(weather "bad") => (assert (act "to study")))
+(defrule R20 (free_time "absent")(weather "good") => (assert (act "to study")))
+(defrule R21 (free_time "absent")(weather "excellent") => (assert (act "take a walk")))
+
+(defrule R22 (free_time "few")(weather "bad") => (assert (act "to study")))
+(defrule R23 (free_time "few")(weather "good") => (assert (act "get busy a hobby")))
+(defrule R24 (free_time "few")(weather "excellent") => (assert (act "take a walk")))
+
+(defrule R25 (free_time "a lot")(weather "bad") => (assert (act "get busy a hobby")))
+(defrule R26 (free_time "a lot")(weather "good") => (assert (act "take a walk")))
+(defrule R27 (free_time "a lot")(weather "excellent") => (assert (act "take a walk")))

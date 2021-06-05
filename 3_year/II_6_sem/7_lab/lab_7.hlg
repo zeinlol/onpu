@@ -1,0 +1,610 @@
+Thu May 27 23:30:59 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.5
+	Ne_Pomerlo 0.5
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:31:24 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.5
+	Ne_Pomerlo 0.5
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:35:25 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.5
+	Ne_Pomerlo 0.5
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:38:39 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.5
+	Ne_Pomerlo 0.5
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:38:40 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.5
+	Ne_Pomerlo 0.5
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:39:10 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.5
+	Ne_Pomerlo 0.5
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:42:55 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.570444
+	Ne_Pomerlo 0.429556
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:44:19 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.570444
+	Ne_Pomerlo 0.429556
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:44:19 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.570444
+	Ne_Pomerlo 0.429556
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8
+Thu May 27 23:47:43 2021
+
+
+Moral links:
+
+    Marrying Boleet and Syhoe
+
+
+Triangulating prime component with 3 members:
+    Pomerlo, Syhoe, Boleet
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 8
+
+
+Elimination sequence:
+
+    Boleet
+    Syhoe
+    Pomerlo
+
+
+Cliques:
+
+Clique 1, 3 members, table size = 8:
+    Pomerlo, Syhoe, Boleet
+
+Total clique table size: 8
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node Pomerlo assigned to clique 1
+    Node Syhoe assigned to clique 1
+    Node Boleet assigned to clique 1
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Pomerlo:
+	Pomerlo    0.570444
+	Ne_Pomerlo 0.429556
+
+    Syhoe:
+	Syhoe      0.555556
+	Ne_Syhoe   0.444444
+
+    Boleet:
+	Boleet     0.2
+	Ne_Boleet  0.8

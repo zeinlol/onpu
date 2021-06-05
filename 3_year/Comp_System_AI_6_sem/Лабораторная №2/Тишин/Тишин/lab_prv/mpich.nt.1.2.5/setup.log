@@ -1,0 +1,10 @@
+[InstallShield Silent]
+Version=v5.00.000
+File=Log File
+[Application]
+Name=MPICH
+Version=1.2.5
+Company=MPICH
+Lang=0009
+[ResponseResult]
+ResultCode=0

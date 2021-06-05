@@ -1,0 +1,18 @@
+         CLIPS (6.31 6/12/19)
+CLIPS> (clear)
+CLIPS> (reset)
+CLIPS> (assert (first 1)(second 2)(third 3))
+<Fact-3>
+CLIPS> (reset)
+CLIPS> (deffacts facts (first 1)(second 2)(third 3))
+CLIPS> (reset)
+CLIPS> (clear)
+CLIPS> (deffacts rule_facts (x)(y)(z))
+CLIPS> (reset)
+CLIPS> (defrule r_1 (x)(y) => (assert (v)))
+CLIPS> (defrule r_2 (y)(z) => (assert (w)))
+CLIPS> (defrule r_3 (v)(w) => (assert (u)))
+CLIPS> (run 1)
+CLIPS> (run 1)
+CLIPS> (run 1)
+CLIPS> 
