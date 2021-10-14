@@ -1,0 +1,19 @@
+|first_lab_ent
+X[0] => Y.IN0
+X[0] => Y.IN0
+X[0] => Y.IN0
+X[0] => Y.IN0
+X[1] => Y.IN1
+X[1] => Y.IN1
+X[1] => Y.IN1
+X[1] => Y.IN1
+en => Y.IN1
+en => Y.IN1
+en => Y.IN1
+en => Y.IN1
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
