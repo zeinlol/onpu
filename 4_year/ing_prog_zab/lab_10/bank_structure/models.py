@@ -92,7 +92,7 @@ class Transaction(models.Model):
         max_length=15,
         verbose_name='Transaction status'
     )
-    date = models.DateTimeField(
+    date = models.DateField(
         auto_now_add=True,
         blank=True,
         verbose_name='Transaction date and time',

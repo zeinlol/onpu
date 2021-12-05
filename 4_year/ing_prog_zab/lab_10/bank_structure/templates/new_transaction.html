@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    New Transaction
+{% endblock %}
+
+{% block content %}
+
+    
+<div class="bg-light p-5 rounded">
+
+    <h3>Make new Transaction</h3>
+    <hr>
+      <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input  class="btn btn-primary" type="submit" value="Save" />
+      </form>
+    
+</div>
+    
+
+{% endblock %}

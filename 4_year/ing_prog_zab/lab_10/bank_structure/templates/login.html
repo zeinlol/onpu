@@ -8,15 +8,11 @@
 
 {% block content %}
 
-<hr>
-    <a href="{% url 'bank_structure:item_list' %}" class="btn btn-outline-secondary">Items List</a>
-<hr>
 
 {% if message %}
     <h5>{{ message }}</h5>
     <hr>
 {% endif %}
-
 
 <form action="" method="post">
     {% csrf_token %}
@@ -24,5 +20,8 @@
     <input type="submit" class="btn btn-primary" value="Sign in">
 </form>
 
+<hr>
+    <a href="{% url 'bank_structure:new_user' %}" class="btn btn-outline-secondary">Sing up</a>
+<hr>
 
 {% endblock %}

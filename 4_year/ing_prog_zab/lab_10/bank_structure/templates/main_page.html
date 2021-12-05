@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Transactions List
+{% endblock %}
+
+{% block content %}
+
+
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+    
+    <a class="navbar-brand" href="{% url 'bank_structure:new_transaction' %}">New Transaction</a>
+
+  </div>
+
+
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+
+    <a class="navbar-brand" href="{% url 'bank_structure:new_card' %}">New Card</a>
+
+  </div>
+
+
+{% endblock %}
