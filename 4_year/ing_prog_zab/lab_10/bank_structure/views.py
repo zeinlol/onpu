@@ -5,16 +5,7 @@ from django.shortcuts import render
 from django.views.generic import View
 from django.views.generic.edit import CreateView, FormView
 
-from .models import CreditCard, Transaction
-
-
-#
-# @receiver(post_save, sender=Item)
-# def change_price_item(instance, **kwargs):
-#     ChangePrice.objects.create(
-#         item=instance,
-#         price=instance.price
-#     )
+from .models import CreditCard, Transaction, Client
 
 
 class TransactionView(View):
@@ -42,6 +33,24 @@ class TransactionViewCreate(CreateView):
     template_name = 'new_transaction.html'
     fields = ['sender', 'receiver', 'value']
 
+    def post(self, request, **kwargs):
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            sender = form.cleaned_data.get('sender')
+            print(sender)
+            # sender = Client.objects.get()
+            receiver_card = form.cleaned_data.get('receiver')
+            value = form.cleaned_data.get('value')
+            new_transaction = Transaction(
+                    sender=sender,
+                    receiver=receiver_card,
+                    value=value,
+            )
+            new_transaction.save()
+        items = Transaction.objects.all()
+        context = {"items": items}
+        return render(request, "transactions_list.html", context)
 
 class CreditCardViewCreate(CreateView):
     model = CreditCard
