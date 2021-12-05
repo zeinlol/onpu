@@ -38,7 +38,6 @@ def generate_random_card_number() -> str:
     generator.seed()  # Seed from current time
     return credit_card_number(generator, MASTERCARD__PREFIXES, 16)
 
-
 def generate_cvv_2() -> str:
     generator = Random()
     generator.seed()  # Seed from current time
