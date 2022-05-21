@@ -1,0 +1,174 @@
+|main
+overflow <= frequency_divider:inst.overflow
+clock => frequency_divider:inst.clock
+reset => frequency_divider:inst.reset
+Q1[0] <= counter10:inst2.Q[0]
+Q1[1] <= counter10:inst2.Q[1]
+Q1[2] <= counter10:inst2.Q[2]
+Q1[3] <= counter10:inst2.Q[3]
+clock2 => counter10:inst2.clock
+reset2 => counter10:inst2.reset
+Q2[0] <= counter3:inst3.Q[0]
+Q2[1] <= counter3:inst3.Q[1]
+Q2[2] <= counter3:inst3.Q[2]
+Q2[3] <= counter3:inst3.Q[3]
+clock3 => counter3:inst3.clock
+reset3 => counter3:inst3.reset
+Q3[0] <= counter6:inst4.Q[0]
+Q3[1] <= counter6:inst4.Q[1]
+Q3[2] <= counter6:inst4.Q[2]
+Q3[3] <= counter6:inst4.Q[3]
+clock4 => counter6:inst4.clock
+reset4 => counter6:inst4.reset
+sseg[0] <= converter:inst1.sseg[0]
+sseg[1] <= converter:inst1.sseg[1]
+sseg[2] <= converter:inst1.sseg[2]
+sseg[3] <= converter:inst1.sseg[3]
+sseg[4] <= converter:inst1.sseg[4]
+sseg[5] <= converter:inst1.sseg[5]
+sseg[6] <= converter:inst1.sseg[6]
+bin[0] => converter:inst1.bin[0]
+bin[1] => converter:inst1.bin[1]
+bin[2] => converter:inst1.bin[2]
+bin[3] => converter:inst1.bin[3]
+
+
+|main|frequency_divider:inst
+clock => overflow~reg0.CLK
+clock => mem[0].CLK
+clock => mem[1].CLK
+clock => mem[2].CLK
+clock => mem[3].CLK
+clock => mem[4].CLK
+clock => mem[5].CLK
+clock => mem[6].CLK
+clock => mem[7].CLK
+clock => mem[8].CLK
+clock => mem[9].CLK
+clock => mem[10].CLK
+clock => mem[11].CLK
+clock => mem[12].CLK
+clock => mem[13].CLK
+clock => mem[14].CLK
+clock => mem[15].CLK
+clock => mem[16].CLK
+clock => mem[17].CLK
+clock => mem[18].CLK
+clock => mem[19].CLK
+clock => mem[20].CLK
+clock => mem[21].CLK
+clock => mem[22].CLK
+clock => mem[23].CLK
+clock => mem[24].CLK
+reset => overflow~reg0.ACLR
+reset => mem[0].ACLR
+reset => mem[1].ACLR
+reset => mem[2].ACLR
+reset => mem[3].ACLR
+reset => mem[4].ACLR
+reset => mem[5].ACLR
+reset => mem[6].ACLR
+reset => mem[7].ACLR
+reset => mem[8].ACLR
+reset => mem[9].ACLR
+reset => mem[10].ACLR
+reset => mem[11].ACLR
+reset => mem[12].ACLR
+reset => mem[13].ACLR
+reset => mem[14].ACLR
+reset => mem[15].ACLR
+reset => mem[16].ACLR
+reset => mem[17].ACLR
+reset => mem[18].ACLR
+reset => mem[19].ACLR
+reset => mem[20].ACLR
+reset => mem[21].ACLR
+reset => mem[22].ACLR
+reset => mem[23].ACLR
+reset => mem[24].ACLR
+overflow <= overflow~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|counter10:inst2
+clock => mem[0].CLK
+clock => mem[1].CLK
+clock => mem[2].CLK
+clock => mem[3].CLK
+reset => mem[0].ACLR
+reset => mem[1].ACLR
+reset => mem[2].ACLR
+reset => mem[3].ACLR
+Q[0] <= mem[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= mem[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= mem[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= mem[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|counter3:inst3
+clock => mem[0].CLK
+clock => mem[1].CLK
+clock => mem[2].CLK
+clock => mem[3].CLK
+reset => mem[0].ACLR
+reset => mem[1].ACLR
+reset => mem[2].ACLR
+reset => mem[3].ACLR
+Q[0] <= mem[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= mem[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= mem[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= mem[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|counter6:inst4
+clock => mem[0].CLK
+clock => mem[1].CLK
+clock => mem[2].CLK
+clock => mem[3].CLK
+reset => mem[0].ACLR
+reset => mem[1].ACLR
+reset => mem[2].ACLR
+reset => mem[3].ACLR
+Q[0] <= mem[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= mem[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= mem[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= mem[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|converter:inst1
+bin[0] => Mux0.IN19
+bin[0] => Mux1.IN19
+bin[0] => Mux2.IN19
+bin[0] => Mux3.IN19
+bin[0] => Mux4.IN19
+bin[0] => Mux5.IN19
+bin[0] => Mux6.IN19
+bin[1] => Mux0.IN18
+bin[1] => Mux1.IN18
+bin[1] => Mux2.IN18
+bin[1] => Mux3.IN18
+bin[1] => Mux4.IN18
+bin[1] => Mux5.IN18
+bin[1] => Mux6.IN18
+bin[2] => Mux0.IN17
+bin[2] => Mux1.IN17
+bin[2] => Mux2.IN17
+bin[2] => Mux3.IN17
+bin[2] => Mux4.IN17
+bin[2] => Mux5.IN17
+bin[2] => Mux6.IN17
+bin[3] => Mux0.IN16
+bin[3] => Mux1.IN16
+bin[3] => Mux2.IN16
+bin[3] => Mux3.IN16
+bin[3] => Mux4.IN16
+bin[3] => Mux5.IN16
+bin[3] => Mux6.IN16
+sseg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

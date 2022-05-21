@@ -143,15 +143,11 @@ eq[15] <= w_anode179w[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |main|counter16:inst
-CLK => mem[0].CLK
 CLK => mem[1].CLK
 CLK => mem[2].CLK
 CLK => mem[3].CLK
-Res => mem[0].ACLR
-Res => mem[1].ACLR
-Res => mem[2].ACLR
-Res => mem[3].ACLR
-Q[0] <= mem[0].DB_MAX_OUTPUT_PORT_TYPE
+Res => ~NO_FANOUT~
+Q[0] <= <GND>
 Q[1] <= mem[1].DB_MAX_OUTPUT_PORT_TYPE
 Q[2] <= mem[2].DB_MAX_OUTPUT_PORT_TYPE
 Q[3] <= mem[3].DB_MAX_OUTPUT_PORT_TYPE

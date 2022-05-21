@@ -1,5 +1,5 @@
 Flow report for counter_16_ent
-Thu Oct 14 15:27:42 2021
+Tue Dec 07 21:05:15 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,22 +40,22 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 14 15:27:42 2021           ;
+; Flow Status                        ; Successful - Tue Dec 07 21:05:15 2021           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; counter_16_ent                                  ;
 ; Top-level Entity Name              ; counter16                                       ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F672C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 4 / 33,216 ( < 1 % )                            ;
-;     Total combinational functions  ; 4 / 33,216 ( < 1 % )                            ;
-;     Dedicated logic registers      ; 4 / 33,216 ( < 1 % )                            ;
+; Total logic elements               ; 4                                               ;
+;     Total combinational functions  ; 4                                               ;
+;     Dedicated logic registers      ; 4                                               ;
 ; Total registers                    ; 4                                               ;
-; Total pins                         ; 6 / 475 ( 1 % )                                 ;
+; Total pins                         ; 6                                               ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0 / 483,840 ( 0 % )                             ;
-; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                                  ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
 
 
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/14/2021 15:25:10 ;
+; Start date & time ; 12/07/2021 21:05:13 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; counter_16_ent      ;
 +-------------------+---------------------+
@@ -75,10 +75,11 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+----------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value  ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+----------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 220874683126741.163421431004100 ; --             ; --          ; --             ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --             ; --          ; eda_simulation ;
+; COMPILER_SIGNATURE_ID               ; 220874683126741.163890391309576 ; --             ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                             ; --             ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --             ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>         ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                            ; --             ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --             ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --             ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                        ; --             ; counter16   ; Top            ;
@@ -94,13 +95,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:01     ; 1.0                     ; 4641 MB             ; 00:00:01                           ;
-; Fitter               ; 00:00:03     ; 1.0                     ; 4871 MB             ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4517 MB             ; 00:00:00                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4517 MB             ; 00:00:00                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4517 MB             ; 00:00:00                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4517 MB             ; 00:00:00                           ;
-; Total                ; 00:00:06     ; --                      ; --                  ; 00:00:05                           ;
+; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 4645 MB             ; 00:00:02                           ;
+; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:02                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -110,11 +106,6 @@ applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-FRJIGPJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter               ; DESKTOP-FRJIGPJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-FRJIGPJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-FRJIGPJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-FRJIGPJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-FRJIGPJ  ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 
@@ -122,11 +113,6 @@ applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off counter -c counter_16_ent
-quartus_fit --read_settings_files=on --write_settings_files=off counter -c counter_16_ent
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog counter -c counter_16_ent --vector_source=C:/Users/nicko/Documents/GitHub/onpu/4_year/Tech_proekt_comp_syst/2_lab/wform1.vwf --testbench_file=./simulation/qsim/counter.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog counter -c counter_16_ent
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog counter -c counter_16_ent --vector_source=C:/Users/nicko/Documents/GitHub/onpu/4_year/Tech_proekt_comp_syst/2_lab/wform1.vwf --testbench_file=./simulation/qsim/counter.vt
-quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog counter -c counter_16_ent
 
 
 

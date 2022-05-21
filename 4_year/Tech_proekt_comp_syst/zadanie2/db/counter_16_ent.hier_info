@@ -1,0 +1,155 @@
+|main
+eq0 <= lpm_decode0:inst1.eq0
+enable => lpm_decode0:inst1.enable
+CLK => counter16:inst.CLK
+Res => counter16:inst.Res
+eq1 <= lpm_decode0:inst1.eq1
+eq2 <= lpm_decode0:inst1.eq2
+eq3 <= lpm_decode0:inst1.eq3
+eq4 <= lpm_decode0:inst1.eq4
+eq5 <= lpm_decode0:inst1.eq5
+eq6 <= lpm_decode0:inst1.eq6
+eq7 <= lpm_decode0:inst1.eq7
+eq8 <= lpm_decode0:inst1.eq8
+eq9 <= lpm_decode0:inst1.eq9
+eq10 <= lpm_decode0:inst1.eq10
+eq11 <= lpm_decode0:inst1.eq11
+eq12 <= lpm_decode0:inst1.eq12
+eq13 <= lpm_decode0:inst1.eq13
+eq14 <= lpm_decode0:inst1.eq14
+eq15 <= lpm_decode0:inst1.eq15
+
+
+|main|lpm_decode0:inst1
+data[0] => lpm_decode:LPM_DECODE_component.data[0]
+data[1] => lpm_decode:LPM_DECODE_component.data[1]
+data[2] => lpm_decode:LPM_DECODE_component.data[2]
+data[3] => lpm_decode:LPM_DECODE_component.data[3]
+enable => lpm_decode:LPM_DECODE_component.enable
+eq0 <= lpm_decode:LPM_DECODE_component.eq[0]
+eq1 <= lpm_decode:LPM_DECODE_component.eq[1]
+eq10 <= lpm_decode:LPM_DECODE_component.eq[10]
+eq11 <= lpm_decode:LPM_DECODE_component.eq[11]
+eq12 <= lpm_decode:LPM_DECODE_component.eq[12]
+eq13 <= lpm_decode:LPM_DECODE_component.eq[13]
+eq14 <= lpm_decode:LPM_DECODE_component.eq[14]
+eq15 <= lpm_decode:LPM_DECODE_component.eq[15]
+eq2 <= lpm_decode:LPM_DECODE_component.eq[2]
+eq3 <= lpm_decode:LPM_DECODE_component.eq[3]
+eq4 <= lpm_decode:LPM_DECODE_component.eq[4]
+eq5 <= lpm_decode:LPM_DECODE_component.eq[5]
+eq6 <= lpm_decode:LPM_DECODE_component.eq[6]
+eq7 <= lpm_decode:LPM_DECODE_component.eq[7]
+eq8 <= lpm_decode:LPM_DECODE_component.eq[8]
+eq9 <= lpm_decode:LPM_DECODE_component.eq[9]
+
+
+|main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component
+data[0] => decode_jsf:auto_generated.data[0]
+data[1] => decode_jsf:auto_generated.data[1]
+data[2] => decode_jsf:auto_generated.data[2]
+data[3] => decode_jsf:auto_generated.data[3]
+enable => decode_jsf:auto_generated.enable
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+eq[0] <= decode_jsf:auto_generated.eq[0]
+eq[1] <= decode_jsf:auto_generated.eq[1]
+eq[2] <= decode_jsf:auto_generated.eq[2]
+eq[3] <= decode_jsf:auto_generated.eq[3]
+eq[4] <= decode_jsf:auto_generated.eq[4]
+eq[5] <= decode_jsf:auto_generated.eq[5]
+eq[6] <= decode_jsf:auto_generated.eq[6]
+eq[7] <= decode_jsf:auto_generated.eq[7]
+eq[8] <= decode_jsf:auto_generated.eq[8]
+eq[9] <= decode_jsf:auto_generated.eq[9]
+eq[10] <= decode_jsf:auto_generated.eq[10]
+eq[11] <= decode_jsf:auto_generated.eq[11]
+eq[12] <= decode_jsf:auto_generated.eq[12]
+eq[13] <= decode_jsf:auto_generated.eq[13]
+eq[14] <= decode_jsf:auto_generated.eq[14]
+eq[15] <= decode_jsf:auto_generated.eq[15]
+
+
+|main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated
+data[0] => w_anode108w[1]~2.IN0
+data[0] => w_anode119w[1].IN1
+data[0] => w_anode129w[1]~1.IN0
+data[0] => w_anode12w[1]~2.IN0
+data[0] => w_anode139w[1].IN1
+data[0] => w_anode149w[1]~1.IN0
+data[0] => w_anode159w[1].IN1
+data[0] => w_anode169w[1]~0.IN0
+data[0] => w_anode179w[1].IN1
+data[0] => w_anode29w[1].IN1
+data[0] => w_anode39w[1]~1.IN0
+data[0] => w_anode49w[1].IN1
+data[0] => w_anode59w[1]~1.IN0
+data[0] => w_anode69w[1].IN1
+data[0] => w_anode79w[1]~0.IN0
+data[0] => w_anode89w[1].IN1
+data[1] => w_anode108w[2]~1.IN0
+data[1] => w_anode119w[2]~1.IN0
+data[1] => w_anode129w[2].IN1
+data[1] => w_anode12w[2]~1.IN0
+data[1] => w_anode139w[2].IN1
+data[1] => w_anode149w[2]~0.IN0
+data[1] => w_anode159w[2]~0.IN0
+data[1] => w_anode169w[2].IN1
+data[1] => w_anode179w[2].IN1
+data[1] => w_anode29w[2]~1.IN0
+data[1] => w_anode39w[2].IN1
+data[1] => w_anode49w[2].IN1
+data[1] => w_anode59w[2]~0.IN0
+data[1] => w_anode69w[2]~0.IN0
+data[1] => w_anode79w[2].IN1
+data[1] => w_anode89w[2].IN1
+data[2] => w_anode108w[3]~0.IN0
+data[2] => w_anode119w[3]~0.IN0
+data[2] => w_anode129w[3]~0.IN0
+data[2] => w_anode12w[3]~0.IN0
+data[2] => w_anode139w[3]~0.IN0
+data[2] => w_anode149w[3].IN1
+data[2] => w_anode159w[3].IN1
+data[2] => w_anode169w[3].IN1
+data[2] => w_anode179w[3].IN1
+data[2] => w_anode29w[3]~0.IN0
+data[2] => w_anode39w[3]~0.IN0
+data[2] => w_anode49w[3]~0.IN0
+data[2] => w_anode59w[3].IN1
+data[2] => w_anode69w[3].IN1
+data[2] => w_anode79w[3].IN1
+data[2] => w_anode89w[3].IN1
+data[3] => w_anode101w[1].IN1
+data[3] => w_anode3w[1]~0.IN0
+enable => w_anode101w[1].IN0
+enable => w_anode3w[1].IN0
+eq[0] <= w_anode12w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[1] <= w_anode29w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[2] <= w_anode39w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[3] <= w_anode49w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[4] <= w_anode59w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[5] <= w_anode69w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[6] <= w_anode79w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[7] <= w_anode89w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[8] <= w_anode108w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[9] <= w_anode119w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[10] <= w_anode129w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[11] <= w_anode139w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[12] <= w_anode149w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[13] <= w_anode159w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[14] <= w_anode169w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[15] <= w_anode179w[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|counter16:inst
+CLK => mem[1].CLK
+CLK => mem[2].CLK
+CLK => mem[3].CLK
+Res => ~NO_FANOUT~
+Q[0] <= <GND>
+Q[1] <= mem[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= mem[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= mem[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

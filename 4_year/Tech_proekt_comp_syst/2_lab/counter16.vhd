@@ -14,8 +14,7 @@ signal mem: STD_LOGIC_VECTOR(3 downto 0);
 begin
  process (CLK, Res, mem)
  begin
- if Res = '1' then mem <= "0000";
- elsif (rising_edge(CLK)) then
+ if (rising_edge(CLK)) then
  mem <= mem + 1;
  end if;
  end process;

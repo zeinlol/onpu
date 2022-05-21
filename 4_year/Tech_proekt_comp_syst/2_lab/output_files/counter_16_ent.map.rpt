@@ -1,5 +1,5 @@
 Analysis & Synthesis report for counter_16_ent
-Thu Oct 14 15:25:10 2021
+Tue Dec 07 21:05:15 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 14 15:25:10 2021           ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 07 21:05:15 2021           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; counter_16_ent                                  ;
 ; Top-level Entity Name              ; counter16                                       ;
@@ -188,8 +188,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 0      ;
 ; Maximum fan-out node                        ; mem[0] ;
 ; Maximum fan-out                             ; 5      ;
-; Total fan-out                               ; 26     ;
-; Average fan-out                             ; 1.86   ;
+; Total fan-out                               ; 22     ;
+; Average fan-out                             ; 1.57   ;
 +---------------------------------------------+--------+
 
 
@@ -211,7 +211,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Total registers                              ; 4     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 4     ;
+; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -233,7 +233,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 14 15:25:09 2021
+    Info: Processing started: Tue Dec 07 21:05:13 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off counter -c counter_16_ent
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file counter16.vhd
@@ -242,14 +242,16 @@ Info (12021): Found 2 design units, including 1 entities, in source file counter
 Info (12127): Elaborating entity "counter16" for the top level hierarchy
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "Res"
 Info (21057): Implemented 10 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 4 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4651 megabytes
-    Info: Processing ended: Thu Oct 14 15:25:11 2021
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4655 megabytes
+    Info: Processing ended: Tue Dec 07 21:05:15 2021
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
 
 

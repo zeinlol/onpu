@@ -1,5 +1,5 @@
 Simulator report for counter_16_ent
-Thu Nov 18 16:14:57 2021
+Thu Dec 16 11:12:10 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -45,12 +45,11 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 50 nodes     ;
-; Simulation Coverage         ;      22.00 % ;
-; Total Number of Transitions ; 1436         ;
+; Simulation Netlist Size     ; 44 nodes     ;
+; Simulation Coverage         ;      78.57 % ;
+; Total Number of Transitions ; 1302         ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone II   ;
-; Device                      ; EP2C35F672C6 ;
 +-----------------------------+--------------+
 
 
@@ -59,7 +58,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
 ; Option                                                                                     ; Setting                                                                            ; Default Value ;
 +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
-; Simulation mode                                                                            ; Timing                                                                             ; Timing        ;
+; Simulation mode                                                                            ; Functional                                                                         ; Timing        ;
 ; Start time                                                                                 ; 0 ns                                                                               ; 0 ns          ;
 ; Simulation results format                                                                  ; VWF                                                                                ;               ;
 ; Vector input source                                                                        ; C:/Users/nicko/Documents/GitHub/onpu/4_year/Tech_proekt_comp_syst/3_lab/wform1.vwf ;               ;
@@ -95,130 +94,92 @@ Please use Quartus II 64-Bit to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      22.00 % ;
-; Total nodes checked                                 ; 50           ;
-; Total output ports checked                          ; 50           ;
-; Total output ports with complete 1/0-value coverage ; 11           ;
-; Total output ports with no 1/0-value coverage       ; 39           ;
-; Total output ports with no 1-value coverage         ; 39           ;
-; Total output ports with no 0-value coverage         ; 39           ;
+; Total coverage as a percentage                      ;      78.57 % ;
+; Total nodes checked                                 ; 44           ;
+; Total output ports checked                          ; 42           ;
+; Total output ports with complete 1/0-value coverage ; 33           ;
+; Total output ports with no 1/0-value coverage       ; 9            ;
+; Total output ports with no 1-value coverage         ; 9            ;
+; Total output ports with no 0-value coverage         ; 9            ;
 +-----------------------------------------------------+--------------+
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                                                                                                                                                          ;
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+
-; Node Name                                                                                       ; Output Port Name                                                                                ; Output Port Type ;
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+
-; |main|counter16:inst|mem[0]                                                                     ; |main|counter16:inst|mem[0]                                                                     ; regout           ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode12w[3] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode12w[3] ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode29w[3] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode29w[3] ; combout          ;
-; |main|counter16:inst|mem[1]~2                                                                   ; |main|counter16:inst|mem[1]~2                                                                   ; combout          ;
-; |main|counter16:inst|mem[0]~3                                                                   ; |main|counter16:inst|mem[0]~3                                                                   ; combout          ;
-; |main|eq0                                                                                       ; |main|eq0                                                                                       ; padio            ;
-; |main|eq1                                                                                       ; |main|eq1                                                                                       ; padio            ;
-; |main|CLK                                                                                       ; |main|CLK~corein                                                                                ; combout          ;
-; |main|Res                                                                                       ; |main|Res~corein                                                                                ; combout          ;
-; |main|CLK~clkctrl                                                                               ; |main|CLK~clkctrl                                                                               ; outclk           ;
-; |main|Res~clkctrl                                                                               ; |main|Res~clkctrl                                                                               ; outclk           ;
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                            ;
++--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                        ; Output Port Name                                                                                 ; Output Port Type ;
++--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------+
+; |main|eq0                                                                                        ; |main|eq0                                                                                        ; pin_out          ;
+; |main|CLK                                                                                        ; |main|CLK                                                                                        ; out              ;
+; |main|eq2                                                                                        ; |main|eq2                                                                                        ; pin_out          ;
+; |main|eq4                                                                                        ; |main|eq4                                                                                        ; pin_out          ;
+; |main|eq6                                                                                        ; |main|eq6                                                                                        ; pin_out          ;
+; |main|eq8                                                                                        ; |main|eq8                                                                                        ; pin_out          ;
+; |main|eq10                                                                                       ; |main|eq10                                                                                       ; pin_out          ;
+; |main|eq12                                                                                       ; |main|eq12                                                                                       ; pin_out          ;
+; |main|eq14                                                                                       ; |main|eq14                                                                                       ; pin_out          ;
+; |main|counter16:inst|mem[3]                                                                      ; |main|counter16:inst|mem[3]                                                                      ; regout           ;
+; |main|counter16:inst|mem[2]                                                                      ; |main|counter16:inst|mem[2]                                                                      ; regout           ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode101w[1] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode101w[1] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[3] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[3] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[2] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[2] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[3] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[3] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[2] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[2] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode12w[3]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode12w[3]  ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode12w[2]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode12w[2]  ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[3] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[3] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[2] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[2] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[3] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[3] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[2] ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[2] ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[3]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[3]  ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[2]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[2]  ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode3w[1]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode3w[1]   ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[3]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[3]  ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[2]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[2]  ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[3]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[3]  ; out0             ;
+; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[2]  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[2]  ; out0             ;
+; |main|counter16:inst|Add0~0                                                                      ; |main|counter16:inst|Add0~0                                                                      ; out0             ;
+; |main|counter16:inst|Add0~1                                                                      ; |main|counter16:inst|Add0~1                                                                      ; out0             ;
+; |main|counter16:inst|Add0~2                                                                      ; |main|counter16:inst|Add0~2                                                                      ; out0             ;
+; |main|counter16:inst|Equal0~0                                                                    ; |main|counter16:inst|Equal0~0                                                                    ; out0             ;
++--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Missing 1-Value Coverage                                                                                                                                                                                                   ;
-+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------+
-; Node Name                                                                                          ; Output Port Name                                                                                   ; Output Port Type ;
-+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------+
-; |main|counter16:inst|mem[3]                                                                        ; |main|counter16:inst|mem[3]                                                                        ; regout           ;
-; |main|counter16:inst|mem[2]                                                                        ; |main|counter16:inst|mem[2]                                                                        ; regout           ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]~4  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]~4  ; combout          ;
-; |main|counter16:inst|mem[1]                                                                        ; |main|counter16:inst|mem[1]                                                                        ; regout           ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~4 ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~4 ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]~4  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]~4  ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode69w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode69w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]~4 ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]~4 ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode119w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode119w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~5 ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~5 ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode159w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode159w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[3]   ; combout          ;
-; |main|counter16:inst|mem[3]~0                                                                      ; |main|counter16:inst|mem[3]~0                                                                      ; combout          ;
-; |main|counter16:inst|mem[2]~1                                                                      ; |main|counter16:inst|mem[2]~1                                                                      ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]   ; combout          ;
-; |main|eq2                                                                                          ; |main|eq2                                                                                          ; padio            ;
-; |main|eq3                                                                                          ; |main|eq3                                                                                          ; padio            ;
-; |main|eq4                                                                                          ; |main|eq4                                                                                          ; padio            ;
-; |main|eq5                                                                                          ; |main|eq5                                                                                          ; padio            ;
-; |main|eq6                                                                                          ; |main|eq6                                                                                          ; padio            ;
-; |main|eq7                                                                                          ; |main|eq7                                                                                          ; padio            ;
-; |main|eq8                                                                                          ; |main|eq8                                                                                          ; padio            ;
-; |main|eq9                                                                                          ; |main|eq9                                                                                          ; padio            ;
-; |main|eq10                                                                                         ; |main|eq10                                                                                         ; padio            ;
-; |main|eq11                                                                                         ; |main|eq11                                                                                         ; padio            ;
-; |main|eq12                                                                                         ; |main|eq12                                                                                         ; padio            ;
-; |main|eq13                                                                                         ; |main|eq13                                                                                         ; padio            ;
-; |main|eq14                                                                                         ; |main|eq14                                                                                         ; padio            ;
-; |main|eq15                                                                                         ; |main|eq15                                                                                         ; padio            ;
-; |main|enable                                                                                       ; |main|enable~corein                                                                                ; combout          ;
-+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------+
++----------------------------------------------------+
+; Missing 1-Value Coverage                           ;
++--------------+------------------+------------------+
+; Node Name    ; Output Port Name ; Output Port Type ;
++--------------+------------------+------------------+
+; |main|enable ; |main|enable     ; out              ;
+; |main|eq1    ; |main|eq1        ; pin_out          ;
+; |main|eq3    ; |main|eq3        ; pin_out          ;
+; |main|eq5    ; |main|eq5        ; pin_out          ;
+; |main|eq7    ; |main|eq7        ; pin_out          ;
+; |main|eq9    ; |main|eq9        ; pin_out          ;
+; |main|eq11   ; |main|eq11       ; pin_out          ;
+; |main|eq13   ; |main|eq13       ; pin_out          ;
+; |main|eq15   ; |main|eq15       ; pin_out          ;
++--------------+------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Missing 0-Value Coverage                                                                                                                                                                                                   ;
-+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------+
-; Node Name                                                                                          ; Output Port Name                                                                                   ; Output Port Type ;
-+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------+
-; |main|counter16:inst|mem[3]                                                                        ; |main|counter16:inst|mem[3]                                                                        ; regout           ;
-; |main|counter16:inst|mem[2]                                                                        ; |main|counter16:inst|mem[2]                                                                        ; regout           ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]~4  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]~4  ; combout          ;
-; |main|counter16:inst|mem[1]                                                                        ; |main|counter16:inst|mem[1]                                                                        ; regout           ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode39w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~4 ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~4 ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]~4  ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]~4  ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode59w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode69w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode69w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode79w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]~4 ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]~4 ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode108w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode119w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode119w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode129w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~5 ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]~5 ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode149w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode159w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode159w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode169w[3]   ; combout          ;
-; |main|counter16:inst|mem[3]~0                                                                      ; |main|counter16:inst|mem[3]~0                                                                      ; combout          ;
-; |main|counter16:inst|mem[2]~1                                                                      ; |main|counter16:inst|mem[2]~1                                                                      ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode49w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]    ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode89w[3]    ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode139w[3]   ; combout          ;
-; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]   ; |main|lpm_decode0:inst1|lpm_decode:LPM_DECODE_component|decode_jsf:auto_generated|w_anode179w[3]   ; combout          ;
-; |main|eq2                                                                                          ; |main|eq2                                                                                          ; padio            ;
-; |main|eq3                                                                                          ; |main|eq3                                                                                          ; padio            ;
-; |main|eq4                                                                                          ; |main|eq4                                                                                          ; padio            ;
-; |main|eq5                                                                                          ; |main|eq5                                                                                          ; padio            ;
-; |main|eq6                                                                                          ; |main|eq6                                                                                          ; padio            ;
-; |main|eq7                                                                                          ; |main|eq7                                                                                          ; padio            ;
-; |main|eq8                                                                                          ; |main|eq8                                                                                          ; padio            ;
-; |main|eq9                                                                                          ; |main|eq9                                                                                          ; padio            ;
-; |main|eq10                                                                                         ; |main|eq10                                                                                         ; padio            ;
-; |main|eq11                                                                                         ; |main|eq11                                                                                         ; padio            ;
-; |main|eq12                                                                                         ; |main|eq12                                                                                         ; padio            ;
-; |main|eq13                                                                                         ; |main|eq13                                                                                         ; padio            ;
-; |main|eq14                                                                                         ; |main|eq14                                                                                         ; padio            ;
-; |main|eq15                                                                                         ; |main|eq15                                                                                         ; padio            ;
-; |main|enable                                                                                       ; |main|enable~corein                                                                                ; combout          ;
-+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------+
++----------------------------------------------------+
+; Missing 0-Value Coverage                           ;
++--------------+------------------+------------------+
+; Node Name    ; Output Port Name ; Output Port Type ;
++--------------+------------------+------------------+
+; |main|enable ; |main|enable     ; out              ;
+; |main|eq1    ; |main|eq1        ; pin_out          ;
+; |main|eq3    ; |main|eq3        ; pin_out          ;
+; |main|eq5    ; |main|eq5        ; pin_out          ;
+; |main|eq7    ; |main|eq7        ; pin_out          ;
+; |main|eq9    ; |main|eq9        ; pin_out          ;
+; |main|eq11   ; |main|eq11       ; pin_out          ;
+; |main|eq13   ; |main|eq13       ; pin_out          ;
+; |main|eq15   ; |main|eq15       ; pin_out          ;
++--------------+------------------+------------------+
 
 
 +---------------------+
@@ -234,7 +195,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Simulator
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Nov 18 16:14:56 2021
+    Info: Processing started: Thu Dec 16 11:12:10 2021
 Info: Command: quartus_sim --simulation_results_format=VWF counter -c counter_16_ent
 Info (324025): Using vector source file "C:/Users/nicko/Documents/GitHub/onpu/4_year/Tech_proekt_comp_syst/3_lab/wform1.vwf"
 Warning (328013): Ignored node in vector source file. Can't find corresponding node name "Q[3]" in design.
@@ -244,13 +205,13 @@ Warning (328013): Ignored node in vector source file. Can't find corresponding n
 Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info (310002): Simulation partitioned into 1 sub-simulations
-Info (328053): Simulation coverage is      22.00 %
-Info (328052): Number of transitions in simulation is 1436
+Info (328053): Simulation coverage is      78.57 %
+Info (328052): Number of transitions in simulation is 1302
 Info (324045): Vector file counter_16_ent.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
 Info: Quartus II 64-Bit Simulator was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4475 megabytes
-    Info: Processing ended: Thu Nov 18 16:14:57 2021
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 4442 megabytes
+    Info: Processing ended: Thu Dec 16 11:12:10 2021
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 
